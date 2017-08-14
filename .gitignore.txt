@@ -1,1 +1,0 @@
-public_html/files/images/items/0/*files/cache/*config/sys.php
