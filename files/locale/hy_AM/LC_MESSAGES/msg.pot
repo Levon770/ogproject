@@ -1,0 +1,2979 @@
+# BFF
+
+"PO-Creation-Date: 2017-08-11 21:57:12+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "<a [link_login]>Войдите</a> или <a [link_register]>зарегистрируйтесь</a>"
+msgstr ""
+
+msgid "E-mail"
+msgstr ""
+
+msgid "E-mail адрес указан некорректно"
+msgstr "Էլ․ փոստի հասցեն սխալ է լրացված"
+
+msgid "ICQ"
+msgstr ""
+
+msgid "Skype"
+msgstr ""
+
+msgid "Whatsapp"
+msgstr ""
+
+msgid "[symbols] осталось"
+msgstr "[symbols] հնարավորություն"
+
+msgctxt "admin"
+msgid "ID"
+msgstr ""
+
+msgctxt "admin"
+msgid "Keyword"
+msgstr ""
+
+msgctxt "admin"
+msgid "bbs.import|добавлено: [count]"
+msgstr "ավելացվել է: [count]"
+
+msgctxt "admin"
+msgid "bbs.import|обновлено: [count]"
+msgstr "թարմացվել է: [count]"
+
+msgctxt "admin"
+msgid "bbs.import|пропущено: [count]"
+msgstr ""
+
+msgctxt "admin"
+msgid "bbs|Бизнес"
+msgstr "Միջնորդ"
+
+msgctxt "admin"
+msgid "bbs|Частное лицо"
+msgstr "Անհատ"
+
+msgctxt "admin"
+msgid "bbs|объявление;объявления;объявлений"
+msgstr "Փնտրում եմ"
+
+msgctxt "admin"
+msgid "filter|Торг возможен"
+msgstr "Հնարավոր է սակարկել"
+
+msgctxt "admin"
+msgid "filter|Цена"
+msgstr "Գին"
+
+msgctxt "admin"
+msgid "geo|Метро"
+msgstr ""
+
+msgctxt "admin"
+msgid "geo|Области"
+msgstr "Շրջաններ"
+
+msgctxt "admin"
+msgid "geo|Страна"
+msgstr "Երկրներ"
+
+msgctxt "admin"
+msgid "geo|все"
+msgstr "ամբողջը"
+
+msgctxt "admin"
+msgid "geo|добавить страну"
+msgstr "ավելացնել երկիրը"
+
+msgctxt "admin"
+msgid "geo|основной"
+msgstr "հիմնական"
+
+msgctxt "admin"
+msgid "geo|список городов"
+msgstr "երկրների ցուցակ"
+
+msgctxt "admin"
+msgid "geo|список областей(регионов)"
+msgstr ""
+
+msgctxt "admin"
+msgid "geo|станции"
+msgstr ""
+
+msgctxt "admin"
+msgid "geo|только основные"
+msgstr ""
+
+msgctxt "admin"
+msgid "site|Укажите имя файла"
+msgstr "Նշեք անուն և ազգանուն"
+
+msgctxt "admin"
+msgid "site|Указанное имя файла уже используется. Пожалуйста, укажите другое."
+msgstr "Նշված անունը և ազգանունը արդեն օգտագործվում են։ Խնդրում ենք նշել ուրիշը"
+
+msgctxt "admin"
+msgid "tags|Введите название тега..."
+msgstr ""
+
+msgctxt "admin"
+msgid "tags|Заменить на"
+msgstr ""
+
+msgctxt "admin"
+msgid "tags|Название"
+msgstr "Անվանում"
+
+msgctxt "admin"
+msgid "users|Выберите пользователей"
+msgstr "Ընտրեք օգտատերին"
+
+msgctxt "admin"
+msgid "users|Доступ заблокирован по причине:<br />[reason]"
+msgstr "Մուտքը արգելափակված է հետևյալ պատճառով:<br />[reason]"
+
+msgctxt "admin"
+msgid "users|Новый пароль слишком короткий"
+msgstr "Նոր գազտնաբառը չափազանց կարճ է"
+
+msgctxt "admin"
+msgid "users|Ошибка подтверждения пароля"
+msgstr "Գաղտնաբառի հաստատումը կատարվեց սխալ"
+
+msgctxt "admin"
+msgid "users|Текущий пароль указан некорректно"
+msgstr "Ընթացիկ գաղտնաբառը լրացված է սխալ"
+
+msgctxt "admin"
+msgid "users|Удалено: [cnt]."
+msgstr "Ջնջված է: [cnt]."
+
+msgctxt "admin"
+msgid "users|Укажите логин"
+msgstr "Նշեք լոգինը"
+
+msgctxt "admin"
+msgid "users|Укажите текущий пароль"
+msgstr "Նշեք ընթացիկ գաղտնաբառը"
+
+msgctxt "admin"
+msgid "users|Указанный логин уже существует, укажите другой"
+msgstr "Նշվաշ լոգինը արդեն գոյություն ունի, նշեք մեկ այլը"
+
+msgctxt "admin"
+msgid "Действие"
+msgstr "Գործողությունին"
+
+msgctxt "admin"
+msgid "Название"
+msgstr "Անվանում"
+
+msgctxt "admin"
+msgid "Отмена"
+msgstr "Չեղարկել"
+
+msgctxt "admin"
+msgid "Редактировать"
+msgstr "Փոփոխել"
+
+msgctxt "admin"
+msgid "Сохранить"
+msgstr "Պահպանել"
+
+msgctxt "admin"
+msgid "Удалить"
+msgstr "Ջնջել"
+
+msgctxt "admin"
+msgid "день;дня;дней"
+msgstr "օր"
+
+msgctxt "admin"
+msgid "добавить"
+msgstr "ավելացնել"
+
+msgctxt "admin"
+msgid "список пуст"
+msgstr "ցուցակը դատարկ է"
+
+msgid "bbs.import|Блокировка пользователя"
+msgstr "Արգելափակել օգտատերին"
+
+msgid "bbs.import|Выберите категорию"
+msgstr ""
+
+msgid "bbs.import|Заголовок объявления"
+msgstr "Հայտարարության վերնագիրը"
+
+msgid "bbs.import|Импорт объявлений"
+msgstr "Հայտարարությունների ներբեռնում"
+
+msgid "bbs.import|Импортирование объявлений было успешно инициировано"
+msgstr "Հայտարարությունների ներբեռնումը հաջող ավարտվեց"
+
+msgid "bbs.import|Импортировать"
+msgstr "Ներբեռնել"
+
+msgid "bbs.import|История импорта"
+msgstr "Ներբեռնման պատմություն"
+
+msgid "bbs.import|История импортов пустая"
+msgstr "Ներբեռնման պատմությունը դատարկ է "
+
+msgid "bbs.import|Категория"
+msgstr "Կատեգորիա"
+
+msgid "bbs.import|Категория указана некорректно"
+msgstr "Կատեգորիան նշված է սխալ"
+
+msgid "bbs.import|Комментарий"
+msgstr "Մեկնաբանություն"
+
+msgid "bbs.import|Не удалось загрузить файл импорта"
+msgstr "Չհաջողվեց բեռնել ներմուծուման ֆայլը"
+
+msgid "bbs.import|Не удалось найти объявления для импорта"
+msgstr "Չհաջողվեց գտնել ներբեռնման հայտարարությունը"
+
+msgid "bbs.import|Необходимо выбрать категорию"
+msgstr "Անհրաժեշտ է ընտրել կատեգորիան"
+
+msgid "bbs.import|Необходимо выбрать статус объявлений"
+msgstr "Անհրաժեշտ է ընտրել հայտարարության կարգավիճակը"
+
+msgid "bbs.import|Обработано"
+msgstr "Վերամշակված է"
+
+msgid "bbs.import|Объявлений"
+msgstr "Հայտարարություն"
+
+msgid "bbs.import|Ошибка обработки файла импорта, обратитесь к администратору"
+msgstr "Ներմուծման ֆայլի մշակման սխալ, դիմեք ադմինիստրատորին"
+
+msgid "bbs.import|Подробное описание объявления"
+msgstr "Հայտարարության մանրամասն նկարագրում"
+
+msgid "bbs.import|Пользователь был указан некорректно"
+msgstr ""
+
+msgid "bbs.import|Разрешено импортировать только файлы в формате xml"
+msgstr "Թույլատրված է ներբեռնել միայն xml ֆորմատի ֆայլեր"
+
+msgid "bbs.import|Скачать шаблон"
+msgstr "Բեռնել օրինակը"
+
+msgid "bbs.import|Сняты с публикации"
+msgstr ""
+
+msgid "bbs.import|Статус"
+msgstr "Կարգավիճակը"
+
+msgid "bbs.import|Статус объявлений"
+msgstr ""
+
+msgid "bbs.import|Укажите владельца объявлений"
+msgstr "Նշեք հայտարարության հեղինակին"
+
+msgid "bbs.import|Файл импорта не соответствует требуемой структуре (#1)"
+msgstr "Ներբեռնվող ֆայլը չիհամապատասխանում պահանջվող կառուցվածքին (#1)"
+
+msgid "bbs.import|Файл импорта не соответствует требуемой структуре (#2)"
+msgstr "Ներբեռնվող ֆայլը չիհամապատասխանում պահանջվող կառուցվածքին (#1)"
+
+msgid "bbs.import|в процессе"
+msgstr "ընթացքի մեջ է"
+
+msgid "bbs.import|добавлено: [count]"
+msgstr "ավելացված է: [count]"
+
+msgid "bbs.import|завершён"
+msgstr "ավարտված է"
+
+msgid "bbs.import|завершён с ошибкой"
+msgstr "ավարտված է սխալով"
+
+msgid "bbs.import|обновлено: [count]"
+msgstr "թարմացված է: [count]"
+
+msgid "bbs.import|ожидает"
+msgstr "ընթացքի մեջ է"
+
+msgid "bbs.import|отменён"
+msgstr "չեղարկվել է"
+
+msgid "bbs.import|пропущено: [count]"
+msgstr "բաց է թողնվել: [count]"
+
+msgid "bbs.my|Активировать"
+msgstr "Ակտիվացնել"
+
+msgid "bbs.my|Активные"
+msgstr "Ակտիվ"
+
+msgid "bbs.my|Все категории"
+msgstr "Բոլոր բաժինները"
+
+msgid "bbs.my|Выбрано <b>[items]</b>"
+msgstr "Ընտրվել է <b>[items]</b>"
+
+msgid "bbs.my|Деактивировать"
+msgstr "Դեակտիվացնել"
+
+msgid "bbs.my|ЗАБЛОКИРОВАНО"
+msgstr "ԱՐԳԵԼԱՓԱԿՎԱԾ Է"
+
+msgid "bbs.my|Изменить"
+msgstr "Փոփոխել"
+
+msgid "bbs.my|На проверке"
+msgstr "Ստուգման ընթացքի մեջ է"
+
+msgid "bbs.my|Неактивные"
+msgstr "Ոչ ակտիվ"
+
+msgid "bbs.my|Необходимо отметить минимум одно из ваших объявлений"
+msgstr "Հարկավոր է նշել ձեր հայտարարություններից գոնե մեկը"
+
+msgid "bbs.my|Отмеченные объявления были успешно опубликованы"
+msgstr "Նշված հայտարարությունները հրապարակված են"
+
+msgid "bbs.my|Отмеченные объявления были успешно продлены"
+msgstr ""
+
+msgid "bbs.my|Отмеченные объявления были успешно сняты с публикации"
+msgstr "Նշված հայտարարությունները հեռացված են "
+
+msgid "bbs.my|По"
+msgstr ""
+
+msgid "bbs.my|Посмотреть"
+msgstr "Դիտել"
+
+msgid "bbs.my|Продлить"
+msgstr "Երկարացնել"
+
+msgid "bbs.my|Редактировать"
+msgstr "Փոփոխել"
+
+msgid "bbs.my|Рекламировать"
+msgstr "Գովազդել"
+
+msgid "bbs.my|С"
+msgstr ""
+
+msgid "bbs.my|Снять с публикации"
+msgstr "Հեռացնել հայտարարություննը"
+
+msgid "bbs.my|Список объявлений пустой"
+msgstr "Հայտարարությունների ցուցակը դատարկ է"
+
+msgid "bbs.my|Статистика"
+msgstr "Ստատիստիկա"
+
+msgid "bbs.my|Удалить"
+msgstr "Ջնջել"
+
+msgid "bbs.my|Удалить объявление?"
+msgstr "Ջնջել հայտարարությունը"
+
+msgid "bbs.my|Удалить отмеченные объявления?"
+msgstr "Ջնջել նշված հայտարարությունները"
+
+msgid "bbs.my|контакты"
+msgstr "կոնտակտներ"
+
+msgid "bbs.my|просмотры"
+msgstr "դիտումներ"
+
+msgid "bbs.my|сообщения"
+msgstr "հաղորդագրություն"
+
+msgid "bbs|(предыдущая публикация [date])"
+msgstr "(նախորդ հայտարարությունը [date])"
+
+msgid "bbs|Активация объявления"
+msgstr "Ակտիվ հայտարարությունը"
+
+msgid "bbs|Бизнес"
+msgstr "Միջնորդ"
+
+msgid "bbs|В указанном вами описании присутствует запрещенное слово \"[word]\""
+msgstr "Ձեր հայտարարության մեջ առկա է արգելված բառ \"[word]\""
+
+msgid "bbs|Вернуться к <a [my_link]>списку своих объявлений</a>"
+msgstr "Վերադառնալ <a [my_link]>հայտարարությունների ցուցակին</a>"
+
+msgid "bbs|Все"
+msgstr "Ամբողջը"
+
+msgid "bbs|Все категории"
+msgstr "Բոլոր կատեգորիաները"
+
+msgid "bbs|Все подкатегории"
+msgstr "Բոլոր ենթաբաժինները"
+
+msgid "bbs|Всего к оплате"
+msgstr "Վճարման ենթակա է"
+
+msgid "bbs|Вы не является владельцем данного объявления"
+msgstr "Դուք այդ հայտարարության հեղինակը չեք"
+
+msgid "bbs|Вы успешно активировали объявление!"
+msgstr "Դուք ակտիվացրեցիք հայտարարությունը"
+
+msgid "bbs|Вы успешно опубликовали объявление!"
+msgstr "Դուք հրապարակեցիք հայտարարությունը"
+
+msgid "bbs|Вы успешно отредактировали объявление!"
+msgstr "Դուք փոփոխեցիք հայտարարություը"
+
+msgid "bbs|Вы успешно сняли объявление с публикации!"
+msgstr "Հայտարարությունը հեռացված է"
+
+msgid "bbs|Вы успешно создали объявление!"
+msgstr "Հայտարարությունը ստեղծված է"
+
+msgid "bbs|Выберите способ оплаты"
+msgstr "Ընտրեք վճարան միջոցը"
+
+msgid "bbs|Выберите услугу"
+msgstr "Ընտրեք ծառայությունը"
+
+msgid "bbs|Выбрать"
+msgstr "Ընտրել"
+
+msgid "bbs|Выделение объявления<br /><small><a [link]>[title]</a></small>"
+msgstr ""
+
+msgid "bbs|Город указан некорректно"
+msgstr "Քաղաքը սխալ է նշված"
+
+msgid "bbs|Да"
+msgstr "Այո"
+
+msgid "bbs|Данное объявление находится на модерации."
+msgstr "Տվյալ հայտարարություը ուղարկված է մոդերացիայի"
+
+msgid "bbs|Для указанного объявления невозможно активировать данную услугу"
+msgstr "Նշված հայտարարության համար հնարավոր չէ ակտիվացնել տվյալ ծառայությունը"
+
+msgid "bbs|Добавить в избранное"
+msgstr "Ավելացնել նախընտրածների ցուցակում"
+
+msgid "bbs|За [from]"
+msgstr "[from] ընթացքում"
+
+msgid "bbs|Заголовок слишком короткий"
+msgstr "Վերնագիրը չափազանց կարճ է"
+
+msgid "bbs|Закрепление объявления<br /><small><a [link]>[title]</a></small>"
+msgstr ""
+
+msgid "bbs|Избранные объявления"
+msgstr "Նախընտրած հայտարարություններ"
+
+msgid "bbs|Изменить настройки фильтра"
+msgstr "Փոփոխել ֆիլտրի կարգավորումները"
+
+msgid "bbs|Имя слишком короткое"
+msgstr "Անունը չափազանց կարճ է"
+
+msgid "bbs|Ищу"
+msgstr "Փնտրում եմ"
+
+msgid "bbs|Категория указана некорректно"
+msgstr "Բաժինը նշված է սխալ"
+
+msgid "bbs|Комментарий от заблокированного пользователя"
+msgstr "Մեկնաբանություն արգելափակված օգտատերի կողմից"
+
+msgid "bbs|Магазинов по вашему запросу не найдено"
+msgstr "Ձեր հարցումով խանութներ չեն գտնվել"
+
+msgid "bbs|Найти"
+msgstr "Գտնել"
+
+msgid "bbs|Необходимо опубликовать объявление для дальнейшего его продвижения."
+msgstr ""
+
+msgid "bbs|Нет"
+msgstr "Ոչ"
+
+msgid "bbs|Неудалось активировать пакет услуг"
+msgstr "Չհաջողվեց ակտիվացնել ծառայությունների փաթեթը"
+
+msgid "bbs|Неудалось выполнить запрос к Sphinx"
+msgstr ""
+
+msgid "bbs|Обмен"
+msgstr "Փոխանակում եմ"
+
+msgid "bbs|Объявление было заблокировано модератором, причина: [reason]"
+msgstr "Հայտարարություը արգելափակված է մոդերատորների կողմից, պատճառը: [reason]"
+
+msgid "bbs|Объявление было заблокировано модератором."
+msgstr "Հայտարարություը արգելափակված է մոդերատորների կողմից"
+
+msgid "bbs|Объявление было удалено"
+msgstr "Հայտարարությունը հեռացված է"
+
+msgid "bbs|Объявление добавленно в избранные"
+msgstr "Հայտարարություը ավելացված նախնտրած հայտարարությունների ցուցակ"
+
+msgid "bbs|Объявление не найдено, либо ссылка указана некорректно"
+msgstr "Հայտարարությունը չի գտնվել"
+
+msgid "bbs|Объявление опубликовано"
+msgstr "Հայտարարություը հրապարակվել է"
+
+msgid "bbs|Объявление публикуется"
+msgstr "Հայտարարությունը հրապարակվում է"
+
+msgid "bbs|Объявление снято с публикации"
+msgstr "Հայտարարությունը հեռացված է"
+
+msgid "bbs|Объявлений по вашему запросу не найдено"
+msgstr "Ձեր հարցումով հայտարարություն չի գտնվել"
+
+msgid "bbs|Объявления"
+msgstr "Փնտրում եմ"
+
+msgid "bbs|Объявления было успешно опубликовано"
+msgstr "Հայտարարություը հրապարակված է"
+
+msgid "bbs|Объявления было успешно снято с публикации"
+msgstr "Հայտարարությունը հեռացված է"
+
+msgid "bbs|Объявления было успешно удалено"
+msgstr "Հայտարարությունը ջնջված է"
+
+msgid "bbs|Объявления пользователя"
+msgstr "Օգտատերի հայտարարությունները"
+
+msgid "bbs|Описание слишком короткое"
+msgstr "Նկարագրությունը չափազանց կարճ է"
+
+msgid "bbs|Опубликовать снова"
+msgstr "Հրապարակել կրկին"
+
+msgid "bbs|От частных лиц"
+msgstr "Անհատներ"
+
+msgid "bbs|Отдам даром"
+msgstr "Կնվիրեմ "
+
+msgid "bbs|Отменить"
+msgstr "Չեղարկել"
+
+msgid "bbs|Отмеченные объявления были успешно удалены"
+msgstr "Նշված հայտարարությունը ջնջվել է"
+
+msgid "bbs|Отфильтровать"
+msgstr "Ֆիլտրել"
+
+msgid "bbs|Очистить"
+msgstr "Ջնջել"
+
+msgid "bbs|Очистить избранное"
+msgstr "Ջնջել նախընտրելի հայտարարությունները"
+
+msgid "bbs|Ошибка активации, обратитесь в службу поддержки."
+msgstr "Ընդհանուր ակտիվացում, դիմեք սպասարկման բաժին"
+
+msgid "bbs|Пакет услуг \"[pack]\" <br /><small><a [link]>[title]</a></small>"
+msgstr "Ծառայությունների փաթեթ \"[pack]\" <br /><small><a [link]>[title]</a></small>"
+
+msgid "bbs|Перейти на <a [link_home]>главную страницу</a> сайта"
+msgstr "Անցնել <a [link_home]>գլխավոր էջ</a> Ogut.am"
+
+msgid "bbs|Перейти на просмотр <a [link_search]>всех объявлений</a>"
+msgstr "Տեսնել <a [link_search]>բոլոր հայտարարությունները</a>"
+
+msgid "bbs|Подтверждение выбранной услуги"
+msgstr "Հաստատել ընտրած ծառայությունը"
+
+msgid "bbs|Поиск объявлений..."
+msgstr "Հայտարարությունների որոնում․․․"
+
+msgid "bbs|После проверки оно будет опубликовано"
+msgstr "Ստուգելուց հետո այն կրապարակվի"
+
+msgid "bbs|Последние объявления"
+msgstr "Վերջին հայտարարությունները"
+
+msgid "bbs|Предлагаю"
+msgstr "Առաջարկում եմ"
+
+msgid "bbs|Премиум объявления"
+msgstr "Պրեմիում հայտարարություններ"
+
+msgid "bbs|Премиум размещение<br /><small><a [link]>[title]</a></small>"
+msgstr ""
+
+msgid "bbs|Причина блокировки:"
+msgstr "Արգելափակման պատճառը"
+
+msgid "bbs|Продвижение объявления"
+msgstr "Հայտարարության դիրքի բարձրացում"
+
+msgid "bbs|Продлить"
+msgstr "Երկարեցնել"
+
+msgid "bbs|Продолжить"
+msgstr "Շարունակել"
+
+msgid "bbs|С [from] по [to]"
+msgstr "[from] - [to]"
+
+msgid "bbs|Спасибо! Осталось всего лишь активировать объявление!"
+msgstr "Շնորհակալություն։ Մնում է միայն ակտիվացնել հայտարարությունը"
+
+msgid "bbs|Список избранных объявлений пустой"
+msgstr "Նախընտրած հայտարարությունների ցուցակը դատարկ է"
+
+msgid "bbs|Список объявлений магазина пустой"
+msgstr "Ցուցակը դատարկ է"
+
+msgid "bbs|Список объявлений пользователя пустой"
+msgstr "Ցուցակը դատարկ է"
+
+msgid "bbs|Срок публикации объявления был успешно продлен"
+msgstr "Հայտարարույան ժամկետը երկարեցվեց"
+
+msgid "bbs|Срочное размещение<br /><small><a [link]>[title]</a></small>"
+msgstr ""
+
+msgid "bbs|Статистика просмотров для данного объявления отсутствует"
+msgstr "Տվյալ հատարարության համար դիտումների ստատիստիկան բացակայում է"
+
+msgid "bbs|Только бизнес объявления"
+msgstr "Միայն բիզնես հայտարարություններ"
+
+msgid "bbs|Торг возможен"
+msgstr "Սակարումը հնարավոր է"
+
+msgid "bbs|Удален автором комментария"
+msgstr "Ջնջվել է մեկնաբանության հեղինակի կողմից"
+
+msgid "bbs|Удален владельцем объявления"
+msgstr "Ջնջվել է հայտարարության հեղինակի կոմից"
+
+msgid "bbs|Удален модератором"
+msgstr "Ջնջվել մոդերատորի կողմից"
+
+msgid "bbs|Удалить из избранного"
+msgstr "Ջնջվել է նախընտրելի հայտարարություններից "
+
+msgid "bbs|Укажите город"
+msgstr "Նշեք քաղաքը"
+
+msgid "bbs|Укажите заголовок объявления"
+msgstr "Նշեք հայտարարության վերնագիրը "
+
+msgid "bbs|Укажите категорию"
+msgstr "Նշեք բաժինը"
+
+msgid "bbs|Услуга активирована до <b>[date]</b>"
+msgstr "Ծառայությունը ակտիվացել է մինչև <b>[date]</b>"
+
+msgid "bbs|Фильтровать результаты"
+msgstr "Ֆիլտրել"
+
+msgid "bbs|Частное лицо"
+msgstr "Անհատ"
+
+msgid "bbs|бесплатно"
+msgstr "անվճար"
+
+msgid "bbs|до [date]"
+msgstr "մինչև [date]"
+
+msgid "bbs|номер"
+msgstr "համար"
+
+msgid "bbs|объявление;объявления;объявлений"
+msgstr "հայտարարություն"
+
+msgid "bbs|ожидает публикации"
+msgstr "սպասում է հրապարկամն"
+
+msgid "bbs|опл."
+msgstr ""
+
+msgid "bbs|оплачено: <b>[up]</b>"
+msgstr "վճարված է: <b>[up]</b>"
+
+msgid "bbs|опубликовано"
+msgstr "հրապարակված է"
+
+msgid "bbs|срочно"
+msgstr "շտապ"
+
+msgid "bbs|фото"
+msgstr "նկար"
+
+msgid "bills| системой \"[way]\""
+msgstr ""
+
+msgid "bills|<br/>На вашем счету: <a href=\"[link]\">[balance] [curr]</a>"
+msgstr "<br/>Ձեր հաշվին: <a href=\"[link]\">[balance] [curr]</a>"
+
+msgid "bills|Robokassa"
+msgstr ""
+
+msgid "bills|Webmoney"
+msgstr ""
+
+msgid "bills|Введите сумму"
+msgstr "Մուտքագրեք գումարը"
+
+msgid "bills|Вы успешно пополнили счет"
+msgstr "Դուք հաջողությամբ լիցքավորեցիք ձեր հաշիվը"
+
+msgid "bills|Выберите способ оплаты"
+msgstr "Ընտրեք վճարման միջոցը"
+
+msgid "bills|История операций"
+msgstr "Գործողությունների պատմությունը"
+
+msgid "bills|На вашем счету:"
+msgstr "Ձեր հաշվին"
+
+msgid "bills|На какую сумму вы хотите пополнить счёт?"
+msgstr "Մուտքագրման գումարի չափը"
+
+msgid "bills|Описание"
+msgstr "Նկարագրություն"
+
+msgid "bills|Оплата счета"
+msgstr ""
+
+msgid "bills|Оплата усуги"
+msgstr "Ծառայության վճարը"
+
+msgid "bills|Ошибка закрытия счета #[id]"
+msgstr ""
+
+msgid "bills|Ошибка оплаты счета"
+msgstr "Վճարման սխալ"
+
+msgid "bills|Ошибка создания счета"
+msgstr "Հաշվի ստեղծման սխալ"
+
+msgid "bills|Пополнение счета"
+msgstr "Հաշվի լիցքավորում"
+
+msgid "bills|Пополнение счета через [system]"
+msgstr "Հաշվի լիցքավորում"
+
+msgid "bills|Пополнить счет"
+msgstr "Լիցքավորել հաշիվը"
+
+msgid "bills|Продолжить"
+msgstr "Շարունակել"
+
+msgid "bills|Список операций по счету пустой"
+msgstr "Ցուցակը դատարկ է"
+
+msgid "bills|Сумма"
+msgstr "Գումար"
+
+msgid "bills|Счет [name]"
+msgstr "Հաշիվ [name]"
+
+msgid "bills|Терминал"
+msgstr "Տերմինալ"
+
+msgid "bills|№ операции"
+msgstr "№ գործողություն"
+
+msgid "blog|Блог"
+msgstr "Բլոգ"
+
+msgid "blog|Блог проекта"
+msgstr "Պրոեկտի բլոգը"
+
+msgid "blog|Избранные"
+msgstr "Նախընտրածներ"
+
+msgid "blog|Категории"
+msgstr "Բաժիններ"
+
+msgid "blog|Назад в блог"
+msgstr "Վերադառնալ բլոգ"
+
+msgid "blog|Следующая запись"
+msgstr "Հաջորդ գրառումը"
+
+msgid "blog|Теги"
+msgstr "Թեգեր"
+
+msgid "blog|Читать дальше"
+msgstr "Կարդալ ավելին"
+
+msgid "captcha|Результат с картинки указан некорректно"
+msgstr ""
+
+msgid "comments|(Это Вы)"
+msgstr "(Սա դուք եք)"
+
+msgid "comments|d.m.Y в H:i"
+msgstr "d.m.Y ժամը H:i"
+
+msgid "comments|Ваш комментарий"
+msgstr "Ձեր մեկնաբանությունը"
+
+msgid "comments|Вы удалили этот комментарий"
+msgstr "Դուք ջնջեցիք այդ մեկնաբանությունը"
+
+msgid "comments|Еще комментарии ([num])"
+msgstr "Ավելի շատ մեկնաբանություններ ([num])"
+
+msgid "comments|Комментарии"
+msgstr "Մեկնաբանություններ"
+
+msgid "comments|Комментарии к этому объявлению закрыты"
+msgstr "Այս հայտարարության մեկնաբությունները"
+
+msgid "comments|Комментарий не может быть короче 5 символов"
+msgstr "Մեկնաբանությունը պետք է լինի 5 նիշից ոչ կարճ"
+
+msgid "comments|Опубликовать"
+msgstr "Հրապարակել"
+
+msgid "comments|Опубликовать комментарий"
+msgstr "Հրապարակել մեկնաբանությունը"
+
+msgid "comments|Ответить"
+msgstr "Պատասխանել"
+
+msgid "comments|Показать все ответы"
+msgstr "Ցույց տալ բոլոր պատասխանները"
+
+msgid "comments|После проверки модератором ваш комментарий будет опубликован"
+msgstr ""
+
+msgid "comments|Удалить"
+msgstr "Ջնջել"
+
+msgctxt "common"
+msgid "ago"
+msgstr ""
+
+msgctxt "common"
+msgid "bills|Cпособ оплаты отключен"
+msgstr "Վճարման միջոցները անջատված են"
+
+msgctxt "common"
+msgid "bills|Демо режим запрещён"
+msgstr ""
+
+msgctxt "common"
+msgid "bills|Не переданы параметры"
+msgstr ""
+
+msgctxt "common"
+msgid "bills|Неверная контрольная сумма"
+msgstr "Գումարը սխալ է մուտքագրված"
+
+msgctxt "common"
+msgid "bills|Неверная сумма"
+msgstr "Գումարը սխալ է մուտքագրված"
+
+msgctxt "common"
+msgid "bills|Неверный формат номера счёта"
+msgstr "Հաշվեհամարի սխալ ձև"
+
+msgctxt "common"
+msgid "bills|Оплата счета #[bill.id] ([site.title])"
+msgstr "Հաշվի վճարում #[bill.id] ([site.title])"
+
+msgctxt "common"
+msgid "bills|Ошибка оплаты счёта"
+msgstr "Հաշվի վճարման սխալ"
+
+msgctxt "common"
+msgid "bills|Ошибка создания счета"
+msgstr "Հաշվի ստեղծման սխալ"
+
+msgctxt "common"
+msgid "bills|Пополнение счета через [system]"
+msgstr "Հաշվի լիցքավորում հետևյալ միջոցներով"
+
+msgctxt "common"
+msgid "bills|завершен"
+msgstr "ավարտված է"
+
+msgctxt "common"
+msgid "bills|незавершен"
+msgstr "ավարտված չէ"
+
+msgctxt "common"
+msgid "bills|обрабатывается"
+msgstr "վերանայվում է"
+
+msgctxt "common"
+msgid "bills|оплата услуги"
+msgstr "ծառայության վճար"
+
+msgctxt "common"
+msgid "bills|отменен"
+msgstr "անվավեր է "
+
+msgctxt "common"
+msgid "bills|подарок"
+msgstr "նվեր"
+
+msgctxt "common"
+msgid "bills|пополнение счета"
+msgstr "հաշվի լիցքավորում"
+
+msgctxt "common"
+msgid "comments|Ошибка добавления комментария"
+msgstr ""
+
+msgctxt "common"
+msgid "day;days;days"
+msgstr ""
+
+msgctxt "common"
+msgid "errors|Внутренняя ошибка сервера"
+msgstr "Սերվերի ներքին սխալ"
+
+msgctxt "common"
+msgid "errors|Доступ запрещен"
+msgstr ""
+
+msgctxt "common"
+msgid "errors|Доступ к указанной странице запрещен"
+msgstr "Նված էջի մուտքը արգելափակված է"
+
+msgctxt "common"
+msgid "errors|Произошла внутренняя ошибка сервера"
+msgstr "Սերվերի ներքին սխալ"
+
+msgctxt "common"
+msgid "errors|Произошла внутренняя ошибка сервера (' . $errorCode . "
+msgstr "Սերվերի ներքին սխալ"
+
+msgctxt "common"
+msgid "errors|Страница не найдена!"
+msgstr "Էջը չի գտնվել"
+
+msgctxt "common"
+msgid "errors|Страницы, на которую вы попытались войти не существует."
+msgstr "Էջը գոյություն չունի"
+
+msgctxt "common"
+msgid "geo|Выберите станцию"
+msgstr ""
+
+msgctxt "common"
+msgid "hour;hours;hours"
+msgstr ""
+
+msgctxt "common"
+msgid "images|Неуказаны требуемые размеры изображения"
+msgstr "Նկարի պահանջվող չափերը նշված չեն"
+
+msgctxt "common"
+msgid "minute;minutes;minutes"
+msgstr ""
+
+msgctxt "common"
+msgid "month;months;months"
+msgstr ""
+
+msgctxt "common"
+msgid "now"
+msgstr ""
+
+msgctxt "common"
+msgid "pgn| - страница [page]"
+msgstr " - էջ [page]"
+
+msgctxt "common"
+msgid "second;seconds;seconds"
+msgstr ""
+
+msgctxt "common"
+msgid "sitemap|Корневой раздел"
+msgstr "Հիմական բաժին"
+
+msgctxt "common"
+msgid "swfupload|Имя файла не было указано."
+msgstr "Ֆայնի անունը նշված չէ"
+
+msgctxt "common"
+msgid "swfupload|Информация о загрузке [file] не указана"
+msgstr "Ինֆորմացիան ներբեռնման մասին [file] նշված չէ"
+
+msgctxt "common"
+msgid "swfupload|Не был выбран файл для загрузки"
+msgstr "Դուք չեք ընտրել ներբեռնվող ֆայլը"
+
+msgctxt "common"
+msgid "swfupload|Не найдена папка для временных файлов"
+msgstr ""
+
+msgctxt "common"
+msgid "swfupload|Недопустимое имя файла"
+msgstr "Ֆայլի անթույլատրելի անուն"
+
+msgctxt "common"
+msgid "swfupload|Недопустимый размер файла"
+msgstr "Ֆայլի անթույլատրելի չափ "
+
+msgctxt "common"
+msgid "swfupload|Недопустимый тип файла"
+msgstr "Ֆայլի անթույլատրելի ֆորմատ"
+
+msgctxt "common"
+msgid "swfupload|Ошибка загрузки файла"
+msgstr "Ներբեռնման սխալ"
+
+msgctxt "common"
+msgid "swfupload|Ошибка записи файла на диск"
+msgstr ""
+
+msgctxt "common"
+msgid "swfupload|Проверка загруженного файла на is_uploaded_file не прошла."
+msgstr ""
+
+msgctxt "common"
+msgid "swfupload|Размер файла превышает допустимый"
+msgstr "Ֆայլի ծավալը թույլատրվող չափանիշները գերազանցում է"
+
+msgctxt "common"
+msgid "swfupload|Размер файла превышает указанное значение в MAX_FILE_SIZE"
+msgstr "Ֆայլի ծավալը թույլատրվող չափանիշները գերազանցում է MAX_FILE_SIZE"
+
+msgctxt "common"
+msgid "swfupload|Файл был загружен только частично"
+msgstr "Ֆայլը ներբեռնվել է մասամբ"
+
+msgctxt "common"
+msgid "system|File \"[file]\" does not exists"
+msgstr ""
+
+msgctxt "common"
+msgid "system|URL указан некорректно"
+msgstr "URL սխալ է նշված"
+
+msgctxt "common"
+msgid "system|В доступе отказано"
+msgstr ""
+
+msgctxt "common"
+msgid "system|Данная операция недоступна в режиме просмотра демо-версии"
+msgstr ""
+
+msgctxt "common"
+msgid "system|Модуль [module] не имеет метода [method]"
+msgstr ""
+
+msgctxt "common"
+msgid "system|Невозможно выполнить операцию"
+msgstr "Հնարավոր չէ կատարել գործողությունը"
+
+msgctxt "common"
+msgid "system|Неизвестная ошибка"
+msgstr "Սխալ"
+
+msgctxt "common"
+msgid "system|Неудалось найти модуль \"[module]\""
+msgstr "Չհաջողվեց գտնել մոդուլը \"[module]\""
+
+msgctxt "common"
+msgid "system|Обновите страницу и повторите попытку"
+msgstr "Թարմացրեք էջը և փորձեք կրկին "
+
+msgctxt "common"
+msgid "system|Операция выполнена успешно"
+msgstr "Գործողությունը կատարված է"
+
+msgctxt "common"
+msgid "system|Ошибка загрузки файла"
+msgstr "Ներբեռնման սխալ"
+
+msgctxt "common"
+msgid "system|Укажите путь к директории, доступной для записи"
+msgstr ""
+
+msgctxt "common"
+msgid "table|AR is empty"
+msgstr ""
+
+msgctxt "common"
+msgid "table|Cannot undefine an AR-mapped field [field]"
+msgstr ""
+
+msgctxt "common"
+msgid "table|Cannot unset an AR-mapped field [field]"
+msgstr ""
+
+msgctxt "common"
+msgid "table|Name conflict with AR-mapped field"
+msgstr ""
+
+msgctxt "common"
+msgid "table|Virtual fields are read-only"
+msgstr ""
+
+msgctxt "common"
+msgid "tags|Название указано некорректно"
+msgstr "Անվանումը սխալ է նշված"
+
+msgctxt "common"
+msgid "today"
+msgstr ""
+
+msgctxt "common"
+msgid "uploader|Ошибка сохранения данных об изображениях в таблицу \"[table]\""
+msgstr ""
+
+msgctxt "common"
+msgid "upload|Запрещенный тип файла"
+msgstr "Արգելված  ֆորմատ"
+
+msgctxt "common"
+msgid "upload|Изображение слишком большое по ширине/высоте"
+msgstr "Նկարը չափազանց մեծ է "
+
+msgctxt "common"
+msgid "upload|Некорректное имя файла"
+msgstr "Ֆայլի սխալ անվանում "
+
+msgctxt "common"
+msgid "upload|Некорректный размер файла"
+msgstr "Ֆայլի անթույլատրելի ծավալ"
+
+msgctxt "common"
+msgid "upload|Ошибка загрузки файла"
+msgstr "Ներբեռնման սխալ"
+
+msgctxt "common"
+msgid "upload|Ошибка загрузки файла, обратитесь к администратору"
+msgstr "Ֆայլի ներբեռնման սխալ, խնդրում ենք դիմել ադմինիստրատորներին "
+
+msgctxt "common"
+msgid "upload|Файл превышает масимально допустимый размер"
+msgstr "Ֆայլը գերազանցում է թույլատրելի ծավալը "
+
+msgctxt "common"
+msgid "upload|Файл с таким названием уже был загружен ранее"
+msgstr ""
+
+msgctxt "common"
+msgid "users|E-mail адрес указан некорректно"
+msgstr "Էլեկտրոնային հասցեն սխալ է նշված"
+
+msgctxt "common"
+msgid "users|E-mail или пароль указаны некорректно"
+msgstr "Ձեր Էլ․ փոստի հասցեն կամ գաղտնաբառը սխալ է լրացված"
+
+msgctxt "common"
+msgid "users|Аккаунт заблокирован по причине: [reason]"
+msgstr "Էջը արգելափակվել է հետևյալ պատճառով: [reason]"
+
+msgctxt "common"
+msgid "users|Вы не можете закрыть доступ самому себе."
+msgstr "Դուք չեք կարող ինքներդ ձեզ արգելափակել "
+
+msgctxt "common"
+msgid "users|Дата должна быть в формате <kbd>ДД-ММ-ГГГГ</kbd>."
+msgstr "Ամսաթիվը պետք է լրացվի հետևյալ ձևով <kbd>օր-ամիս-տարի</kbd>."
+
+msgctxt "common"
+msgid "users|Доступ закрыт"
+msgstr "Մուտք արգելված է"
+
+msgctxt "common"
+msgid "users|Доступ закрыт для вашего IP-адреса."
+msgstr "Մուքն արգելված է ձեր IP-հասցեի համար "
+
+msgctxt "common"
+msgid "users|Доступ закрыт для вашего адреса email."
+msgstr "Ձեր էլեկտրոնային հասցեի համար մուտքը արգելված է"
+
+msgctxt "common"
+msgid "users|Доступ закрыт для вашей учётной записи."
+msgstr ""
+
+msgctxt "common"
+msgid "users|Запрашиваемых пользователей не существует."
+msgstr "Ձեր հարցումով ոչինչ գտնված չէ"
+
+msgctxt "common"
+msgid "users|Имя пользователя не определено."
+msgstr ""
+
+msgctxt "common"
+msgid "users|Логин или пароль указаны некорректно"
+msgstr "Ձեր լոգինը կամ գաղտնաբառը սխալ է լրացված"
+
+msgctxt "common"
+msgid "users|Логин указан некорректно"
+msgstr "Լոգինը նշված է սխալ"
+
+msgctxt "common"
+msgid "users|Не найдено правильных адресов электронной почты."
+msgstr ""
+
+msgctxt "common"
+msgid "users|Не определён IP-адрес или имя хоста"
+msgstr ""
+
+msgctxt "common"
+msgid "users|Не удалось определить IP-адрес указанного хоста"
+msgstr ""
+
+msgctxt "common"
+msgid "users|Не указан режим."
+msgstr ""
+
+msgctxt "common"
+msgid "year;years;years"
+msgstr ""
+
+msgctxt "common"
+msgid "yesterday"
+msgstr "Երեկ "
+
+msgctxt "common"
+msgid "Б,КБ,МБ,ГБ,ТБ"
+msgstr ""
+
+msgctxt "common"
+msgid "Байт,Килобайт,Мегабайт,Гигабайт,Терабайт"
+msgstr ""
+
+msgctxt "common"
+msgid "Ошибка активации услуги"
+msgstr "Ծառայության ակտիվացման սխալ "
+
+msgctxt "common"
+msgid "Повторите попытку через несколько минут"
+msgstr ""
+
+msgctxt "common"
+msgid "Повторите попытку через одну минуту"
+msgstr ""
+
+msgctxt "common"
+msgid "Укажите keyword"
+msgstr "Նշեք keyword-եր "
+
+msgctxt "common"
+msgid "Указанный keyword уже используется"
+msgstr "Նշված keyword-երը արդեն օգտագործվում են "
+
+msgctxt "common"
+msgid "вчера"
+msgstr "երեկ "
+
+msgctxt "common"
+msgid "год"
+msgstr "տարի "
+
+msgctxt "common"
+msgid "день"
+msgstr "օր "
+
+msgctxt "common"
+msgid "месяц"
+msgstr "ամիս "
+
+msgctxt "common"
+msgid "сегодня"
+msgstr "այսօր "
+
+msgid "contacts|E-mail адрес указан некорректно"
+msgstr "Էլ․ փոստի հասցեն սխալ է լրացված"
+
+msgid "contacts|Ваш e-mail адрес"
+msgstr "Ձեր Էլ․ փոստի հասցեն "
+
+msgid "contacts|Ваше имя"
+msgstr "Ձեր անունը"
+
+msgid "contacts|Введите результат"
+msgstr "Լրացրեք արդյունքը"
+
+msgid "contacts|Выберите тему"
+msgstr "Ընտրեք թեման"
+
+msgid "contacts|Другие вопросы"
+msgstr "Այլ հարցեր"
+
+msgid "contacts|Контакты"
+msgstr "Կոնտակտներ"
+
+msgid "contacts|Отправить сообщение"
+msgstr "Ուղարկել հաղորդագրությունը"
+
+msgid "contacts|Ошибка на сайте"
+msgstr "Սխալ կայքում"
+
+msgid "contacts|Сообщение"
+msgstr "Հաղորդագրություն"
+
+msgid "contacts|Текст сообщения слишком короткий"
+msgstr "Հաղորդագրությունը չափազանց կարճ է"
+
+msgid "contacts|Технический вопрос"
+msgstr "Տեխնիկական հարց"
+
+msgid "contacts|Укажите ваше имя"
+msgstr "Նշեք ձեր անունը"
+
+msgid "error|Найти"
+msgstr ""
+
+msgid "error|Попробуйте её найти вернувшись на <a [home]>главную страницу</a>."
+msgstr "Փորձեք գտնել <a [home]>գլխավոր էջում</a>."
+
+msgid "error|Страница не найдена. Ошибка 404."
+msgstr "Էջը գտնված չէ։ 404 սխալ"
+
+msgid "error|Страницы, на которую вы попытались попасть не существует."
+msgstr "Նման էջ գոյություն չունի"
+
+msgid "filter|Вернуться к основным категориям"
+msgstr "Վերադառնալ հիմնական բաժիններին "
+
+msgid "filter|Вернуться назад"
+msgstr "Հետ գնալ"
+
+msgid "filter|Все"
+msgstr "Ամբողջը "
+
+msgid "filter|Все города"
+msgstr "Բոլոր քաղաքները"
+
+msgid "filter|Все категории"
+msgstr "Բոլոր բաժինները "
+
+msgid "filter|Все подкатегории"
+msgstr "Բոլոր ենթաբաժինները "
+
+msgid "filter|Все регионы"
+msgstr "Բոլոր մարզերը"
+
+msgid "filter|Все страны"
+msgstr "Բոլոր էջերը "
+
+msgid "filter|Выберите категорию"
+msgstr "Ընտրեք բաժինը "
+
+msgid "filter|Выберите страну"
+msgstr "Ընտրեք երկիրը "
+
+msgid "filter|Изменить регион"
+msgstr "Փոխել մարզը "
+
+msgid "filter|Изменить страну"
+msgstr "Փոխել երկիրը "
+
+msgid "filter|Искать во всех регионах"
+msgstr "Փնտրել բոլոր մարզերով "
+
+msgid "filter|Искать объявления во <a [attr]>всех городах</a>"
+msgstr "Փնտրել հայտարարությունը <a [attr]>բոլոր քաղաքներում</a>"
+
+msgid "filter|Искать объявления по"
+msgstr "Փնտրել հայտարարությունը "
+
+msgid "filter|Искать объявления по <a [attr]>всему региону</a>"
+msgstr "Փնտրել հայտարարությունը <a [attr]>ամբողջ մարզով</a>"
+
+msgid "filter|Искать объявления по <a[attr]>всей стране</a>"
+msgstr "Փնտրել <a[attr]>ամբողջ երկրում</a>"
+
+msgid "filter|Искать объявления по <a[link]>всем странам</a>"
+msgstr "Փնտրել հայտարարությունը <a[link]>բոլոր երկրներում</a>"
+
+msgid "filter|Метро"
+msgstr ""
+
+msgid "filter|Не важно"
+msgstr "Կարևոր չէ"
+
+msgid "filter|Не найдено - \"[word]\""
+msgstr "Չի գտնվել - \"[word]\""
+
+msgid "filter|Не указан"
+msgstr "Նշված չէ"
+
+msgid "filter|Отфильтровать"
+msgstr "Ֆիլտրել "
+
+msgid "filter|Район"
+msgstr "Վարչական շրջան"
+
+msgid "filter|Район города"
+msgstr "Քաղաքի վարչական շրջանները"
+
+msgid "filter|С фото"
+msgstr "Նկարով "
+
+msgid "filter|Цена"
+msgstr "Գին"
+
+msgid "filter|всей стране"
+msgstr "երկրում"
+
+msgid "filter|до"
+msgstr "մինչև"
+
+msgid "filter|объявление;объявления;объявлений"
+msgstr "հայտարարություն "
+
+msgid "filter|от"
+msgstr "սկսած "
+
+msgid "filter|смотреть все магазины"
+msgstr "տեսնել բոլոր խանութները "
+
+msgid "filter|смотреть все объявления"
+msgstr "տեսնել բոլոր հայտարարությունները "
+
+msgid "filter|станция;станции;станций"
+msgstr ""
+
+msgid "geo|Выбрать страну"
+msgstr "Ընտրել երկիրը "
+
+msgid "header|<a [login_link]>Войдите</a> или <a [reg_link]>Зарегистрируйтесь</a>"
+msgstr ""
+
+msgid "header|Добавить"
+msgstr ""
+
+msgid "header|Добавить объявление"
+msgstr "Ավելացնել հայտարարություն"
+
+msgid "header|магазин"
+msgstr "խանութ "
+
+msgid "help|В данной рубрике пусто"
+msgstr "Տվյալ բաժինը դատարկ է"
+
+msgid "help|Другие вопросы из этого раздела"
+msgstr "Այլ հարցեր տվյալ բաժնից "
+
+msgid "help|Найти"
+msgstr "Գտնել "
+
+msgid "help|По запросу \"[query]\" ничего не найдено"
+msgstr "Այս հարցումով \"[query]\" ոչինչ չի գտնվել "
+
+msgid "help|Подробнее"
+msgstr "Մանրամասն "
+
+msgid "help|Поиск вопросов..."
+msgstr "Հարցի որոնում․․․"
+
+msgid "help|Помощь"
+msgstr "Օգնություն "
+
+msgid "help|Помощь по проекту"
+msgstr "Օգնություն "
+
+msgid "help|Результаты поиска по запросу \"[query]\":"
+msgstr "Որոնման արդյունքները \"[query]\":"
+
+msgid "help|Частые вопросы"
+msgstr "Հաճախակի տրվող հարցեր "
+
+msgid "ibbs.import|Опубликованы"
+msgstr "Հրապարակված "
+
+msgid "internalmail|Все сообщения"
+msgstr "Բոլոր հաղորդագրությունները "
+
+msgid "internalmail|Для магазина"
+msgstr "Խանութի համար "
+
+msgid "internalmail|Для частного лица"
+msgstr "Անհատների համար "
+
+msgid "internalmail|Игнорирую"
+msgstr "Անտեսում եմ "
+
+msgid "internalmail|Избранные"
+msgstr "Նախընտրած "
+
+msgid "internalmail|Магазин был заблокирован по причине: [reason]"
+msgstr ""
+
+msgid "internalmail|Магазин запретил отправлять ему сообщения"
+msgstr "Տվյալ խանութը չունի նամակ ուղարկելու հնարավորություն "
+
+msgid "internalmail|Объявления магазина"
+msgstr "Խանութի հայտարարությունները "
+
+msgid "internalmail|Объявления этого пользователя"
+msgstr "Տվյալ օգտատերի հայտարարությունները "
+
+msgid "internalmail|Отправить"
+msgstr "Ուղարկել "
+
+msgid "internalmail|Переписка с магазином временно недоступна"
+msgstr "Հաղորդագրությունները ժամանակավորապես անհասանելի են "
+
+msgid "internalmail|Пользователь запретил отправлять ему сообщения"
+msgstr "Դուք չեք կարող ուղարկել հաղորդագրություն այս օգտատերին "
+
+msgid "internalmail|Прикрепить файл (до [maxSize])"
+msgstr "Կցել ֆայլ (մինչև [maxSize])"
+
+msgid "internalmail|Сообщение было успешно отправлено"
+msgstr "Հաղորդագրությունն ուղարկված է"
+
+msgid "internalmail|Сообщение слишком короткое"
+msgstr "Հաղորդագրությունը չափազանց կարճ է"
+
+msgid "internalmail|Список сообщений пустой"
+msgstr "Հաղորդագրությունների ցուցակը դատարկ է"
+
+msgid "internalmail|Текст сообщения слишком короткий"
+msgstr "Հաղորդագրությունը չափազանց կարճ է"
+
+msgid "internalmail|Текст сообщения..."
+msgstr "Հաղորդագրության տեքստը "
+
+msgid "internalmail|Удалить"
+msgstr "Ջնջել "
+
+msgid "internalmail|Указанный собеседник не найден либо был заблокирован"
+msgstr "Նշված օգտատեր գոյություն չունի, կամ արգելափակվել է"
+
+msgid "item-claim|Введите результат с картинки"
+msgstr "Լրացրեք նկարի արդյունքները "
+
+msgid "item-claim|Другое"
+msgstr "Այլ "
+
+msgid "item-claim|Жалоба успешно принята"
+msgstr "Բողոքը ընդունված է"
+
+msgid "item-claim|Запрещенный товар/услуга"
+msgstr "Արգելված ապրանք/ծառայություն "
+
+msgid "item-claim|Неверная рубрика"
+msgstr "Սխալ թեմա "
+
+msgid "item-claim|Неверный адрес"
+msgstr "Սխալ հասցե "
+
+msgid "item-claim|Объявление не актуально"
+msgstr "Հայտարարությունը չի գործում "
+
+msgid "item-claim|Опишите причину подробнее"
+msgstr "Նկարագրեք պատճառը ավելի մանրամասն "
+
+msgid "item-claim|Оставьте ваш комментарий"
+msgstr "Թողեք ձեր մեկնաբանությունը "
+
+msgid "item-claim|Отправить жалобу"
+msgstr "Ուղարկեք ձեր բողոքը "
+
+msgid "item-claim|Укажите причину"
+msgstr "Նշեք պատճառը "
+
+msgid "item-claim|Укажите причину жалобы"
+msgstr "Նշեք բողոքի պատճառը "
+
+msgid "item-form|"
+msgstr ""
+
+msgid "item-form|+ ещё<span [attr]> телефон</span>"
+msgstr "+ ևս մեկ<span [attr]> հեռախոս</span>"
+
+msgid "item-form|<a [link_add]>Добавить еще одно</a> объявление"
+msgstr "<a [link_add]>ավելացնել</a> ևս մեկ հայտարարություն"
+
+msgid "item-form|<a [link_add]>Добавить объявление</a> в ту же категорию"
+msgstr "<a [link_add]>Ավելացնել հայտարարություն</a> նույն բաժնում "
+
+msgid "item-form|E-mail адрес"
+msgstr "Էլ․ հասցե "
+
+msgid "item-form|Youtube, Rutube, Vimeo"
+msgstr ""
+
+msgid "item-form|Адрес объекта"
+msgstr "Օբյեկտի հասցեն "
+
+msgid "item-form|Бесплатно"
+msgstr "Անվճար "
+
+msgid "item-form|Бесплатное объявление"
+msgstr "Անվճար հայտարարություն "
+
+msgid "item-form|Ваше объявление сохранено, но ещё не опубликовано."
+msgstr "Ձեր հայտարարությունը պահպանված է, բայց առայժմ հրապարակված չէ "
+
+msgid "item-form|Ваши контактные данные"
+msgstr "Ձեր կոնտակտային տվյալները "
+
+msgid "item-form|Вернуться к основным категориям"
+msgstr "Վերադառնալ հիմնական բաժին "
+
+msgid "item-form|Вернуться назад"
+msgstr "Վերադառնալ "
+
+msgid "item-form|Вы можете загрузить не более {limit} изображений"
+msgstr ""
+
+msgid "item-form|Вы не являетесь владельцем данного объявления"
+msgstr "Դուք չեք համարվում տվյալ հայտարարության հեղինակը "
+
+msgid "item-form|Вы не является владельцем данного объявления."
+msgstr ""
+
+msgid "item-form|Выберите категорию"
+msgstr "Ընտրեք բաժինը "
+
+msgid "item-form|Выберите станцию"
+msgstr ""
+
+msgid "item-form|Выбрать другую ветку"
+msgstr ""
+
+msgid "item-form|Город"
+msgstr "Քաղաք "
+
+msgid "item-form|Добавить фото"
+msgstr "Ավելացնել նկար "
+
+msgid "item-form|Допустимы только следующие типы файлов: {extensions}"
+msgstr "Թույլատրված եմ միայն հետևյալ տիպի ֆայլեր: {extensions}"
+
+msgid "item-form|Заголовок"
+msgstr "Վերնագիր "
+
+msgid "item-form|Изменить"
+msgstr "Փոփոխել"
+
+msgid "item-form|Имя появится в блоке с контактной информацией"
+msgstr "Անուն "
+
+msgid "item-form|Категория"
+msgstr "Կատեգորիա"
+
+msgid "item-form|Контактное лицо"
+msgstr "Օգտատեր"
+
+msgid "item-form|Контакты"
+msgstr "Կոնտակտներ "
+
+msgid "item-form|Магазин"
+msgstr "Խանութ "
+
+msgid "item-form|Местоположение"
+msgstr "Գտնվելու վայրը "
+
+msgid "item-form|Метро"
+msgstr ""
+
+msgid "item-form|Назад к <a [link_mylist]>списку своих объявлений</a>"
+msgstr "Վերադառնալ <a [link_mylist]>ձեր հայտարարություններին</a>"
+
+msgid "item-form|Назад на <a [link_home]>главную страницу</a>"
+msgstr "Վերադառնալ <a [link_home]>գլխավոր էջ</a>"
+
+msgid "item-form|Не указан"
+msgstr "Նշված չէ"
+
+msgid "item-form|Номер телефона"
+msgstr "Հեռախոսահամար "
+
+msgid "item-form|Обмен"
+msgstr "Փոխանակում եմ "
+
+msgid "item-form|Объявление еще неактивировано"
+msgstr "Հայտարարությունը դեռ ակտիվ չէ "
+
+msgid "item-form|Объявление ожидает проверки модератора"
+msgstr "Հայտարարությունը ստուգման փուլում է"
+
+msgid "item-form|Описание"
+msgstr "Նկարագրություն "
+
+msgid "item-form|Опубликовать объявление"
+msgstr "Հրապարակել հայտարարությունը "
+
+msgid "item-form|Ошибка публикации объявления, обратитесь в службу поддержки."
+msgstr "Տեղի է ունեցել սխալ, խնդրում ենք դիմել սպասարկման բաժին "
+
+msgid "item-form|Подождите..."
+msgstr "Սպասեք "
+
+msgid "item-form|После проверки модератором ваше объявление будет опубликовано"
+msgstr "Ձեր հայտարարությունը կստուգի մոդերատորը և այն կհրապարակվի Ogut.am-ում"
+
+msgid "item-form|Продвижение объявления"
+msgstr "Հայտարարության դիրքի բարձրացում "
+
+msgid "item-form|Разместить как"
+msgstr "Տեղադրել հայտարարությունը  "
+
+msgid "item-form|Разместить объявление"
+msgstr "Տեղադրել հայտարարություն "
+
+msgid "item-form|Район"
+msgstr "Վարչական շրջան"
+
+msgid "item-form|Редактирование объявления"
+msgstr "Հայտարարության փոփխություն "
+
+msgid "item-form|Редактировать объявление"
+msgstr "Փոփոխել հայտարարությունը "
+
+msgid "item-form|Ссылка на видео"
+msgstr "Լինք դեպի վիդեո "
+
+msgid "item-form|Теперь ваше объявление недоступно для просмотра"
+msgstr "Այժմ ձեր հայտարարությունը հասանելի չէ դիտման համար "
+
+msgid "item-form|Тип объявления"
+msgstr "Հայտարարության տեսակը "
+
+msgid "item-form|Торг возможен"
+msgstr "Հնարավոր է սակարկել "
+
+msgid "item-form|Удалить фото"
+msgstr "Ջնջել նկարը "
+
+msgid "item-form|Удобная форма загрузки фотографий"
+msgstr ""
+
+msgid "item-form|Укажите номер телефона"
+msgstr ""
+
+msgid "item-form|Укажите улицу, район, номер дома и т.п."
+msgstr "Նշեք փողոցը, շրջանը, տան համարը և այլն "
+
+msgid "item-form|Укажите цену"
+msgstr ""
+
+msgid "item-form|Файл {file} имеет некорректный размер"
+msgstr ""
+
+msgid "item-form|Фотографии"
+msgstr "Նկարներ "
+
+msgid "item-form|Цена"
+msgstr "Գին "
+
+msgid "item-form|Частное лицо"
+msgstr "Անհատ"
+
+msgid "pgn|Предыдущая"
+msgstr "Նախորդ "
+
+msgid "pgn|Следующая"
+msgstr "Հաջորդ "
+
+msgid "pgn|по 15 на странице"
+msgstr "Յուրաքանչյուր էջում 15"
+
+msgid "pgn|по 25 на странице"
+msgstr "Յուրաքանչյուր էջում 25"
+
+msgid "pgn|по 50 на странице"
+msgstr "Յուրաքանչյուր էջում 50"
+
+msgid "pgn|показать все"
+msgstr "ցույց տալ ամբողջը "
+
+msgid "search|Галереей"
+msgstr ""
+
+msgid "search|Магазины"
+msgstr "Խանութներ "
+
+msgid "search|На карте"
+msgstr ""
+
+msgid "search|Объявления"
+msgstr "Հայտարարություն "
+
+msgid "search|От дешевых к дорогим"
+msgstr "Էժանից թանկ "
+
+msgid "search|От дорогих к дешевым"
+msgstr "Թանկից էժան "
+
+msgid "search|Поиск объявлений"
+msgstr ""
+
+msgid "search|Результаты поиска по запросу \"[query]\""
+msgstr ""
+
+msgid "search|Самые новые"
+msgstr "Նոր"
+
+msgid "search|Сортировка"
+msgstr ""
+
+msgid "search|Списком"
+msgstr ""
+
+msgid "search|больше карты"
+msgstr ""
+
+msgid "search|меньше карты"
+msgstr ""
+
+msgid "shops|+ ещё<span [attr]> телефон</span>"
+msgstr "+ ևս մեկ<span [attr]> հեռախոս</span>"
+
+msgid "shops|<a [link]>[title]</a>"
+msgstr ""
+
+msgid "shops|Facebook"
+msgstr ""
+
+msgid "shops|Google+"
+msgstr ""
+
+msgid "shops|Yandex"
+msgstr ""
+
+msgid "shops|Адрес магазина"
+msgstr "Խանութի հասցեն "
+
+msgid "shops|Ваш email-адрес"
+msgstr "Ձեր էլ․ փոստի հասցեն "
+
+msgid "shops|Ваш магазин был деактивирован модератором."
+msgstr "Ձեր խանութը արգելափակվել է մոդերատորների կողմից "
+
+msgid "shops|Ваш магазин был заблокирован модератором, по следующей причине:"
+msgstr "Ձեր խանութը արգելափակվել է մոդերատորների կողմից հետևյալ պատճառով "
+
+msgid "shops|Ваш телефон"
+msgstr "Ձեր հեռախոսահամարը "
+
+msgid "shops|Ваша заявка была успешно отправлена"
+msgstr "Ձեր հարցումը ուղարկված է "
+
+msgid "shops|Ваше имя"
+msgstr "Ձեր անունը "
+
+msgid "shops|Введите результат с картинки"
+msgstr ""
+
+msgid "shops|Вернуться к основным категориям"
+msgstr ""
+
+msgid "shops|Вернуться назад"
+msgstr "Վերադառնալ "
+
+msgid "shops|Вконтакте"
+msgstr ""
+
+msgid "shops|Все категории"
+msgstr "Բոլոր կատեգորիաները "
+
+msgid "shops|Все магазины"
+msgstr "Բոլոր խանութները"
+
+msgid "shops|Всего к оплате"
+msgstr "Վճարման ենթակա է "
+
+msgid "shops|Вы успешно активировали услугу для магазина"
+msgstr "Ծառայությունն ակտիվացված է"
+
+msgid "shops|Вы успешно открыли магазин \"<a [link]>[title]</a>\"!"
+msgstr "Դուք հաջողությամբ ստեղծեցիք ձեր խանութը \"<a [link]>[title]</a>\"!"
+
+msgid "shops|Вы успешно открыли магазин \"<strong>[title]</strong>\"."
+msgstr "Դուք հաջողությամբ ստեղծեցիք ձեր խանութը \"<strong>[title]</strong>\"."
+
+msgid "shops|Выберите категорию"
+msgstr "Ընտրեք կատեգորիան"
+
+msgid "shops|Выберите категорию магазина"
+msgstr "Ընտրեք խանութի կատեգորիան "
+
+msgid "shops|Выберите способ оплаты"
+msgstr "Ընտրեք վճարման միջոցը "
+
+msgid "shops|Выберите услугу"
+msgstr "Ընտրեք ծառայությունը "
+
+msgid "shops|Выделение магазина<br /><small><a [link]>[title]</a></small>"
+msgstr ""
+
+msgid "shops|Город"
+msgstr "Քաղաք"
+
+msgid "shops|Город указан некорректно"
+msgstr "Քաղաքը սխալ է նշված "
+
+msgid "shops|Для выяснения причины деактивации обратитесь к администратору."
+msgstr "Դեակտիվացման պատճառը ճշտելու համար դիմեք ադմինիստրացիա "
+
+msgid "shops|Для выяснения причины обратитесь к администратору."
+msgstr "Պատճառը պարզելու համար խնդրում ենք դիմել սպասարկման բաժին "
+
+msgid "shops|Для указанного магазина невозможно активировать данную услугу"
+msgstr "Նշված խանութի համար տվյալ ծառայությունը հնարավոր չէ ակտիվացնել "
+
+msgid "shops|Допустимы только следующие типы файлов: {extensions}"
+msgstr "Թույլատրված են միայն հետևյալ տիպի ֆայլեր "
+
+msgid "shops|Другое"
+msgstr "Այլ "
+
+msgid "shops|Жалоба успешно принята"
+msgstr "Բողոքը ընդունված է "
+
+msgid "shops|Загрузить логотип"
+msgstr "Ներբեռնել լոգոտիպ "
+
+msgid "shops|Загрузка логотипа"
+msgstr "Լոգոտիպի ներբեռնում "
+
+msgid "shops|Загрузка, подождите..."
+msgstr "Ներբեռնվում է, խնդրում ենք սպասել․․․"
+
+msgid "shops|Закрепление магазина<br /><small><a [link]>[title]</a></small>"
+msgstr ""
+
+msgid "shops|Запрещенный товар/услуга"
+msgstr "Արգելված ապրանք/ծառայություն "
+
+msgid "shops|Изменить информацию"
+msgstr "Փոփոխել ինֆորմացիան "
+
+msgid "shops|Категория"
+msgstr "Կատեգորիա "
+
+msgid "shops|Контактные данные"
+msgstr "Կոնտակտային տվյալներ "
+
+msgid "shops|Контакты"
+msgstr "Կոնտակտներ "
+
+msgid "shops|Логотип"
+msgstr "Լոգոտիպ "
+
+msgid "shops|Магазин был временно деактивирован модератором"
+msgstr "Խանութը ժամանակավորապես արգելափակվել է մոդերատորների կողմից "
+
+msgid "shops|Магазин был заблокирован модератором, причина: [reason]"
+msgstr "Խանութը ժամանակավորապես արգելափակվել է մոդերատորների կողմից, պատճառը: [reason]"
+
+msgid "shops|Магазин был удален, либо ссылка указана некорректно"
+msgstr "Խանութը ջնջվել է, կամ լինքը նշված է սխալ "
+
+msgid "shops|Магазины"
+msgstr "Խանութ "
+
+msgid "shops|Магазины с логотипом пользуются большим доверием"
+msgstr "Այն խանութները, որոնք ունեն բրենդային նշան, ավելի նախընտրելի են հաճախորդների կողմից"
+
+msgid "shops|Максимальный размер файла - [size]"
+msgstr "Ֆայլի մաքսիմալ ծավալ - [size]"
+
+msgid "shops|Мой мир"
+msgstr "Իմ աշխարհը "
+
+msgid "shops|На карте"
+msgstr "Քարտեզի վրա "
+
+msgid "shops|Название"
+msgstr "Անվանում "
+
+msgid "shops|Название магазина слишком короткое"
+msgstr "Խանութի անվանումը չափազանց կարճ է "
+
+msgid "shops|Найти"
+msgstr "Գտնել "
+
+msgid "shops|Написать сообщение"
+msgstr "Գրել հաղորդագրություն "
+
+msgid "shops|Настройки успешно сохранены"
+msgstr "Կարգավորումները պահպանված են "
+
+msgid "shops|Неверная рубрика"
+msgstr ""
+
+msgid "shops|Неверный адрес"
+msgstr "Սխալ հասցե"
+
+msgid "shops|Неудалось активировать пакет услуг"
+msgstr "Չհաջողվեց ակտիվացնել ծառայությունների փաթեթը "
+
+msgid "shops|Номер телефона"
+msgstr "Հեռախոսահամար "
+
+msgid "shops|Общая информация"
+msgstr "Ընդհանուր ինֆորմացիա "
+
+msgid "shops|Объявления магазина"
+msgstr "Խանութի հայտարարությունները "
+
+msgid "shops|Одноклассники"
+msgstr ""
+
+msgid "shops|Описание"
+msgstr "Բնութագիր "
+
+msgid "shops|Опишите подробнее чем занимается ваш магазин"
+msgstr "Խնդրում ենք մանրամասն նկարագրել, թե ինչով է զբաղվում ձեր խանութը "
+
+msgid "shops|Опишите причину подробнее"
+msgstr "Նկարագրեք պատճառը ավելի մանրամասն "
+
+msgid "shops|Оставьте ваш комментарий"
+msgstr "Թողեք ձեր մեկնաբանությունը "
+
+msgid "shops|Откройте свой магазин"
+msgstr "Բացեք ձեր խանութը "
+
+msgid "shops|Открытие магазина"
+msgstr "Բացեք ձեր խանութը "
+
+msgid "shops|Открыть магазин"
+msgstr "Բացել խանութ "
+
+msgid "shops|Отправить жалобу"
+msgstr "Ուղարկել բողոք "
+
+msgid "shops|Отправить заявку"
+msgstr "Ուղարկել հայտ "
+
+msgid "shops|Отправить сообщение магазину [shop]"
+msgstr "Ուղարկել հաղորդագրություն խանութին [shop]"
+
+msgid "shops|Ошибка открытия магазина, обратитесь в службу поддержки."
+msgstr "Խանութը գրանցելուց տեղի է ունեցել սխալ, խնդրում ենք դիմել սպասարկման բաժին "
+
+msgid "shops|Ошибка просмотра страницы магазина. Обратитесь к администратору"
+msgstr "Դիտումն արգելափակված է, խնդում ենք դիմել սպասարկման բաժին "
+
+msgid "shops|Ошибка редактирования настроек магазина."
+msgstr "Կարգավորումների փոփոխման սխալ "
+
+msgid "shops|Ошибка формирования списка объявлений."
+msgstr "Տեղի ունեցավ սխալ "
+
+msgid "shops|Пакет услуг \"[pack]\" <br /><small><a [link]>[title]</a></small>"
+msgstr "Ծառայությունների փաթեթ \"[pack]\" <br /><small><a [link]>[title]</a></small>"
+
+msgid "shops|Поделиться с другом"
+msgstr "Կիսվել "
+
+msgid "shops|Подтверждение выбранной услуги"
+msgstr "Ընտրված ծառայության հաստատում "
+
+msgid "shops|Пожаловаться"
+msgstr "Բողոքել "
+
+msgid "shops|Поиск магазинов..."
+msgstr "Խանութի որոնում "
+
+msgid "shops|Показать"
+msgstr "Ցույց տալ "
+
+msgid "shops|Показать контакты"
+msgstr "Ցույց տալ կոնտակտները  "
+
+msgid "shops|Показать на карте"
+msgstr "Ցույց տալ քարտեզի վրա "
+
+msgid "shops|Показать объявления"
+msgstr "Ցույց տալ հայտարարությունը "
+
+msgid "shops|После проверки модератором ваш магазин будет активирован."
+msgstr "Մոդերատորի կողմից ստուգելուց հետո ձեր խանութը կհրապարակվի "
+
+msgid "shops|Продвижение магазина"
+msgstr "Խանութի դիրքի բարձրացում "
+
+msgid "shops|Продвинуть"
+msgstr "Գովազդել "
+
+msgid "shops|Продвинуть магазин"
+msgstr "Գովազդել խանութը "
+
+msgid "shops|Продолжить"
+msgstr "Շարունակել "
+
+msgid "shops|Расскажите как вы связаны с данным магазином"
+msgstr "Ինչ կապ ունեք դուք այս խանութի հետ "
+
+msgid "shops|Расскажите как вы связаны с данным магазином немного подробнее"
+msgstr "Ինչ կապ ունեք դուք այս խանութի հետ, խնդրում ենք ներկայացնել ավելի մանրամասն "
+
+msgid "shops|Результаты поиска по запросу \"[query]\""
+msgstr "Գտնված արդյունքներ հետևյալ հարցումով \"[query]\""
+
+msgid "shops|Рекламировать"
+msgstr "Գովազդել "
+
+msgid "shops|Рекламируйте свой магазин"
+msgstr "Գովազդեք ձեր խանութը "
+
+msgid "shops|Сообщения"
+msgstr "Հաղորդագրություն "
+
+msgid "shops|Сохранить"
+msgstr "Պահպանել "
+
+msgid "shops|Социальные сети"
+msgstr "Սոց․ ցանցեր "
+
+msgid "shops|Списком"
+msgstr "Ցուցակով "
+
+msgid "shops|Список магазинов пустой"
+msgstr "Ցուցակը դատարկ է "
+
+msgid "shops|Ссылка"
+msgstr "Լինքեր "
+
+msgid "shops|Ссылка на сайт"
+msgstr "Լինք դեդի կայք "
+
+msgid "shops|Телефон"
+msgstr "Հեռախոսահամար "
+
+msgid "shops|Укажите ваш номер телефона"
+msgstr "Նշեք ձեր հեռախոսահամարը "
+
+msgid "shops|Укажите ваше имя"
+msgstr "Նշեք ձեր անունը "
+
+msgid "shops|Укажите ваши контактные данные и мы с вами свяжемся"
+msgstr "Նշեք ձեր կոնտակտային տվյալները և մենք կկապվենք ձեր հետ "
+
+msgid "shops|Укажите категорию магазина"
+msgstr "Նշեք խանութի կատեգորիան "
+
+msgid "shops|Укажите название магазина"
+msgstr "Նշեք խանութի անունը "
+
+msgid "shops|Укажите причину"
+msgstr "Նշեք պատճառը "
+
+msgid "shops|Укажите причину жалобы"
+msgstr "Նշեք բողոքի պատճառը "
+
+msgid "shops|Укажите причины, по которым вы считаете этот магазин некорректным"
+msgstr "Նշեք այն պատճառը ըստ, որի դուք համար եք այս խանութը ոչ ճիշտ "
+
+msgid "shops|Укажите регион деятельности магазина"
+msgstr "Նշեք խանութի հասցեն "
+
+msgid "shops|Услуга активирована до <b>[date]</b>"
+msgstr "Ծառայությունը ակտիվ է մինչև <b>[date]</b>"
+
+msgid "shops|Файл {file} имеет некорректный размер"
+msgstr "Ֆայլի {file} ծավալը անթույլատրելի է"
+
+msgid "shops|бесплатно"
+msgstr "անվճար "
+
+msgid "shops|больше карты"
+msgstr ""
+
+msgid "shops|ещё социальная сеть"
+msgstr ""
+
+msgid "shops|магазин;магазина;магазинов"
+msgstr "խանութ "
+
+msgid "shops|меньше карты"
+msgstr ""
+
+msgid "shops|объявление;объявления;объявлений"
+msgstr "հայտարարություն "
+
+msgid "shops|показать контакты"
+msgstr "ցույց տալ կոնտակտները"
+
+msgid "shops|удалить"
+msgstr "ջնջել "
+
+msgid "svc|Добавить объявление"
+msgstr "Ավելացնել հայտարարություն "
+
+msgid "svc|Как продать быстрее?"
+msgstr "Ինչպե՞ս վաճառել ավելի արագ "
+
+msgid "svc|Магазин"
+msgstr "Խանութ "
+
+msgid "svc|Мои объявления"
+msgstr "Իմ հայտարարությունները"
+
+msgid "svc|Неудалось активировать услугу"
+msgstr "Չստացվեց ակտիվացնել ծառայությունը "
+
+msgid "svc|Объявление будет опубликовано в прессе в ближайшее время"
+msgstr "Հայտարարությունը կհրատարակվի թերթում մոտակա ժամանակներս "
+
+msgid "svc|Объявление уже опубликовано в прессе"
+msgstr "Հայտարարությունը արդեն հրատարակված է թերթում "
+
+msgid "svc|Объявления"
+msgstr "Փոխանակում"
+
+msgid "svc|Ошибка пополнения счета, обратитесь к администрации"
+msgstr "Սխալ հաշվի լիցքավորման ընթացքում, խնդրում ենք դիմել սպասարկման բաժին "
+
+msgid "svc|Подайте новое объявление и сделайте его заметным"
+msgstr "Ստեղծել նոր հայտարարություն "
+
+msgid "svc|Рекламируйте уже существующие объявления"
+msgstr "Գովազդել հայտարարությունները "
+
+msgid "svc|Сумма пополнения указана некорректно"
+msgstr "Լիցքավորման գումարը սխալ է նշված "
+
+msgid "users|E-mail адрес был успешно изменен"
+msgstr "Էլ․ հասցեն փոփոխված է "
+
+msgid "users|E-mail адрес не должен совпадать с текущим"
+msgstr "Նոր էլ․ հասցեն պետք է տարբերվի հնից "
+
+msgid "users|E-mail адрес указан некорректно"
+msgstr "Էլ․ հասցեն սխալ է նշված "
+
+msgid "users|E-mail или пароль указаны некорректно"
+msgstr "Ձեր Էլ․ փոստի հասցեն կամ գաղտնաբառը սխալ է լրացված"
+
+msgid "users|Активация аккаунта"
+msgstr "Ակտիվացնել էջը "
+
+msgid "users|В доступе отказано по причине: [reason]"
+msgstr "Մերժված է հետևյալ պատճառով: [reason]"
+
+msgid "users|Ваш email-адрес"
+msgstr "Ձեր էլ․ հասցեն "
+
+msgid "users|Ваш аккаунт был успешно удален"
+msgstr "Ձեր էջը ջնջված է"
+
+msgid "users|Ваш номер"
+msgstr "Ձեր հեռախոսահամարը "
+
+msgid "users|Ваш пароль был успешно изменен."
+msgstr "Ձեր գաղտնաբառը փոխված է "
+
+msgid "users|Ваш текущий email"
+msgstr "Ձեր ընթացիկ էլ․ հասցեն "
+
+msgid "users|Введите ваш email"
+msgstr "Նշեք ձեր էլ․ հասցեն "
+
+msgid "users|Введите ваш пароль"
+msgstr "Նշեք ձեր գաղտնաբառը "
+
+msgid "users|Введите код"
+msgstr "Լրացրեք կոդը "
+
+msgid "users|Введите код из sms"
+msgstr "Լրացրեք կոդը, որը ուղարկվել ձեզ (sms)"
+
+msgid "users|Введите новый пароль"
+msgstr "Նշեք նոր գաղտնաբառը "
+
+msgid "users|Введите пароль"
+msgstr "Նշեք գաղտնաբառը"
+
+msgid "users|Введите пароль ещё раз"
+msgstr "Նշեք գաղտնաբառը ևս մեկ անգամ "
+
+msgid "users|Введите результат с картинки"
+msgstr ""
+
+msgid "users|Введите электронную почту, которую вы указывали при регистрации"
+msgstr ""
+
+msgid "users|Войдите на сайт"
+msgstr ""
+
+msgid "users|Войдите через:"
+msgstr "Արագ մուտք սոց․ կայքերի միջոցով "
+
+msgid "users|Войти на сайт"
+msgstr ""
+
+msgid "users|Восстановить пароль"
+msgstr "Վերականգնել գաղտնաբառը "
+
+msgid "users|Впервые на нашем сайте?"
+msgstr "Առաջի՞ն անգամ եք մեր կայքում "
+
+msgid "users|Вы забыли свой пароль?"
+msgstr ""
+
+msgid "users|Вы уже зарегистрированы?"
+msgstr ""
+
+msgid "users|Вы успешно зарегистрировались!"
+msgstr "Շնորհավորում ենք, դուք հաջող գրանցվեցիք մեր կայքում  "
+
+msgid "users|Выслать код"
+msgstr "Ուղարկել կոդը "
+
+msgid "users|Выслать код повторно"
+msgstr "Ուղարկել կոդը կրկին "
+
+msgid "users|Выслать новый код подтверждения"
+msgstr "Ուղարկել հաստատման նոր կոդ "
+
+msgid "users|Город"
+msgstr "Քաղաք "
+
+msgid "users|Гость"
+msgstr "Հյուր "
+
+msgid "users|Данный аккаунт заблокирован по причине: [reason]"
+msgstr "Էջի տվյալները արգելափակված են հետևյալ պատճառներով: [reason] "
+
+msgid "users|Данный аккаунт неактивирован. <a [link_activate]>Активировать</a>"
+msgstr "Էջի տվյալները սխալ են։ <a [link_activate]></a>"
+
+msgid "users|Дата рождения указана некорректно"
+msgstr "Ծննդյան թիվը նշված է սխալ "
+
+msgid "users|Для доступа в кабинет необходимо авторизоваться"
+msgstr "Տվյալ էջը դիտելու համար անհրաժեշտ է"
+
+msgid "users|Для завершения регистрации введите Вашу электронную почту"
+msgstr "Գրանցումն ավարտելու համար անհրաժեշտ է լրացնել էլ․ հասցեն "
+
+msgid "users|Допустимы только следующие типы файлов: {extensions}"
+msgstr "Թույլատրված են միայն հետևյալ տիպի ֆայլեր: {extensions}"
+
+msgid "users|Доступ заблокирован по причине: [reason]"
+msgstr "Մուտքն արգելափակված է հետևյալ պատճառով: [reason]"
+
+msgid "users|Забыли пароль?"
+msgstr ""
+
+msgid "users|Завершить регистрацию"
+msgstr "Ավարտել գրանցումը "
+
+msgid "users|Загрузка фотографии"
+msgstr "Ներբեռնել նկարները "
+
+msgid "users|Зарегистрироваться"
+msgstr "Գրանցվել"
+
+msgid "users|Зарегистрируйтесь"
+msgstr "Գրանցվեք"
+
+msgid "users|Здравствуйте, <b>[name]</b>!"
+msgstr "Ողջույն, <b>[name]</b>!"
+
+msgid "users|Избранные"
+msgstr "Նախընտրածներ"
+
+msgid "users|Изменить"
+msgstr "Փոփոխել "
+
+msgid "users|Изменить e-mail"
+msgstr "Փոխել էլ․ հասցեն "
+
+msgid "users|Изменить email-адрес"
+msgstr "Փոխել էլ․ հասցեն "
+
+msgid "users|Изменить номер"
+msgstr "Փոխել հեռախոսահամարը "
+
+msgid "users|Изменить номер телефона"
+msgstr "Փոխել հեռախոսահամարը "
+
+msgid "users|Изменить пароль"
+msgstr "Փոխել գաղտնաբառը"
+
+msgid "users|Импорт"
+msgstr "Ներմուծել "
+
+msgid "users|Кабинет пользователя"
+msgstr "Օգտատիրոջ էջը "
+
+msgid "users|Код активации: [code]"
+msgstr "Ակտիվացման կոդը: [code]"
+
+msgid "users|Код подтверждения"
+msgstr "Հաստատման կոդը "
+
+msgid "users|Код подтверждения был отправлен на указанный вами номер"
+msgstr "Հաստատման կոդը ուղարկվել է ձեր նշած հեռախոսահամարին "
+
+msgid "users|Код подтверждения был отправлен на указанный номер телефона"
+msgstr "Հաստատման կոդը ուղարկվել է ձեր նշած հեռախոսահամարին "
+
+msgid "users|Код подтверждения был успешно отправлен повторно"
+msgstr "Հաստատման կոդը ուղարկված է "
+
+msgid "users|Код подтверждения указан некорректно"
+msgstr "Հաստատման կոդը նշված է սխալ "
+
+msgid "users|Контактное лицо"
+msgstr "Օգտատեր"
+
+msgid "users|Контактные данные"
+msgstr "Կոնտակտային տվյալներ "
+
+msgid "users|Контакты"
+msgstr "Կոնտակտներ "
+
+msgid "users|Магазин"
+msgstr "Խանութ "
+
+msgid "users|На ваш электронный ящик были высланы инструкции по смене пароля."
+msgstr "Ձեր էլ․ հասցեին ուղարկվել է գաղտնաբառի փոփոխման մասին ինֆորմացիա "
+
+msgid "users|На номер [phone] отправлен код активации."
+msgstr "Հեռախոսահամարին [phone] ուղարկվել է ակտիվացման կոդ "
+
+msgid "users|На номер [phone] отправлен код подтверждения."
+msgstr "Հեռախոսահամարին [phone] ուղարկվել է կոդ, խնդրում ենք հաստատել գործողությունը "
+
+msgid "users|На указанный Вами e-mail отправлено письмо."
+msgstr ""
+
+msgid "users|На этом регистрация будет завершена."
+msgstr ""
+
+msgid "users|Написать сообщение"
+msgstr "Գրել հաղորդագրություն "
+
+msgid "users|Настройка уведомлений"
+msgstr "Ծանուցման կարգավորումներ "
+
+msgid "users|Настройки"
+msgstr "Կարգավորումներ "
+
+msgid "users|Настройки магазина"
+msgstr "Խանութի կարգավորումները "
+
+msgid "users|Настройки успешно сохранены"
+msgstr "Կարգավորումնեը պահպանված են"
+
+msgid "users|Не получили письмо? <a [link_retry]>Отправить еще раз</a>"
+msgstr ""
+
+msgid "users|Не указан"
+msgstr "Նշված չէ "
+
+msgid "users|Неправильно указан номер телефона"
+msgstr "Հեռախոսահամարը սխալ է նշված "
+
+msgid "users|Новый email"
+msgstr "Նոր էլ․ հասցե "
+
+msgid "users|Новый номер"
+msgstr "Նոր հեռախոսահամար  "
+
+msgid "users|Новый пароль"
+msgstr "Նոր գաղտնաբառ "
+
+msgid "users|Новый пароль еще раз"
+msgstr "Կրկնել նոր գաղտնաբառը "
+
+msgid "users|Новый пароль не должен быть короче [symbols] символов"
+msgstr "Նոր գաղտնաբառը պետք է ունենա մինիմում [symbols] նիշ "
+
+msgid "users|Новый пароль не должен совпадать с текущим"
+msgstr "Նոր գաղտնաբառը պետք է տարբերի հնից "
+
+msgid "users|Номер телефона"
+msgstr "Հեռախոսահամար "
+
+msgid "users|Номер телефона был успешно изменен"
+msgstr "Հեռախոսահամարը փոփոխված է "
+
+msgid "users|Номер телефона указан некорректно"
+msgstr "Հեռախոսահամարը սխալ է նշված "
+
+msgid "users|Объединить профили"
+msgstr ""
+
+msgid "users|Объявления"
+msgstr "Իմ հայտարարությունները"
+
+msgid "users|Объявления пользователя"
+msgstr "Օգտատիրոջ հայտարարությունները "
+
+msgid "users|Открыть магазин"
+msgstr "Բացել խանութ "
+
+msgid "users|Отмена"
+msgstr "Չեղարկել "
+
+msgid "users|Отправить"
+msgstr "Ուղարկել "
+
+msgid "users|Ошибка подтверждения пароля"
+msgstr "Գաղտնաբառի հաստատման սխալ "
+
+msgid "users|Ошибка регистрации, обратитесь к администратору"
+msgstr "Գրանցման սխալ, խնդրում ենք դիմել ադմինիստրացիային "
+
+msgid "users|Пароли должны совпадать"
+msgstr ""
+
+msgid "users|Пароль"
+msgstr "Գաղտնաբառ "
+
+msgid "users|Пароль был успешно изменен"
+msgstr "Գաղտնաբառը փոխվեց "
+
+msgid "users|Пароль не должен быть короче [min] символов"
+msgstr "Գաղտնաբառը պետք է ունենա ամենաքիչը [min] նիշ "
+
+msgid "users|Письмо было успешно отправлено повторно"
+msgstr ""
+
+msgid "users|Письмо отправлено"
+msgstr "Հաղորդագրությունը ուղարկված է "
+
+msgid "users|Повторите пароль"
+msgstr ""
+
+msgid "users|Подтвердить"
+msgstr ""
+
+msgid "users|Подтверждение номера мобильного телефона"
+msgstr ""
+
+msgid "users|Подтверждение пароля указано неверно"
+msgstr ""
+
+msgid "users|Получать рассылку о новостях [site_title]"
+msgstr "Ստանալ ծանուցում նորությունների մասին [site_title]"
+
+msgid "users|Получать уведомления о новых комментариях на объявления"
+msgstr ""
+
+msgid "users|Получать уведомления о новых сообщениях"
+msgstr "Ստանալ ծանուցում նոր հաղորդագրություններ մասին"
+
+msgid "users|Пользователь был заблокирован по причине: [reason]"
+msgstr ""
+
+msgid "users|Пользователь с таким e-mail адресом уже зарегистрирован"
+msgstr ""
+
+msgid "users|Пользователь с таким e-mail адресом уже зарегистрирован."
+msgstr ""
+
+msgid "users|Пользователь с таким номером телефона уже зарегистрирован"
+msgstr ""
+
+msgid "users|Пользователь с таким номером телефона уже зарегистрирован."
+msgstr ""
+
+msgid "users|Прикрепить файл"
+msgstr "Կցել ֆայլ"
+
+msgid "users|Просмотр переписки"
+msgstr ""
+
+msgid "users|Профили с личной фотографией пользуются большим доверием"
+msgstr "Այն պրոֆիլները, որոնք ունեն լուսանկար, ավելի վստահելի են"
+
+msgid "users|Регистрация завершена"
+msgstr "Գրանցումն ավարտված է"
+
+msgid "users|Редактировать"
+msgstr "Փոփոխել "
+
+msgid "users|Результат с картинки"
+msgstr ""
+
+msgid "users|Результат с картинки указан некорректно"
+msgstr ""
+
+msgid "users|Связь с социальными сетями"
+msgstr "Կապել սոց․ ցանցերի հետ "
+
+msgid "users|Сервис временно недоступен, попробуйте чуть позже"
+msgstr "Ծառայությունը ժամանակավորապես անհասանելի է, խնդրում ենք փորձել մի փոքր ուշ"
+
+msgid "users|Сообщение было успешно отправлено"
+msgstr "Հաղորդագրությունը ուղարկված է "
+
+msgid "users|Сообщение слишком короткое"
+msgstr "Հաղորդագրությունը չափազանց կարճ է "
+
+msgid "users|Сообщения"
+msgstr "Հաղորդագրություն "
+
+msgid "users|Сохранить"
+msgstr "Պահպանել "
+
+msgid "users|Срок действия ключа активации истек."
+msgstr ""
+
+msgid "users|Счёт"
+msgstr "Հաշիվ "
+
+msgid "users|Текст вашего сообщения"
+msgstr "Ձեր հաղորդագրության տեքստը "
+
+msgid "users|Текущий пароль"
+msgstr "Ընթացիկ գաղտնաբառ "
+
+msgid "users|Текущий пароль указан некорректно"
+msgstr "Ընթացիկ գաղտնաբառը լրացված է սխալ"
+
+msgid "users|Тел."
+msgstr "Հեռ․"
+
+msgid "users|Телефон"
+msgstr "Հեռախոսահամար "
+
+msgid "users|Точный адрес"
+msgstr "Հասցե "
+
+msgid "users|У вас уже есть профиль на [site_name]?"
+msgstr "Դուք արդեն գրանվա՞ծ եք [site_name]"
+
+msgid "users|Удалить"
+msgstr "Ջնջել "
+
+msgid "users|Удалить учетную запись"
+msgstr "Ջնջել անձնական էջը "
+
+msgid "users|Укажите новый пароль"
+msgstr "Լրացրեք նոր գաղտնաբառը "
+
+msgid "users|Укажите пароль"
+msgstr "Նշեք գաղտնաբառը "
+
+msgid "users|Указанный e-mail в базе не найден"
+msgstr "Նշված էլ․ հասցեն մեր բազայում գտնված չէ "
+
+msgid "users|Файл {file} имеет некорректный размер"
+msgstr "Ֆայլը {file} ունի անթույլատրելի ծավալ "
+
+msgid "users|Фотография"
+msgstr "Նկար "
+
+msgid "users|Частные объявления"
+msgstr "Հայտարարություններ անհատների կողմից "
+
+msgid "users|Электронная почта"
+msgstr "Էլ․ հասցե "
+
+msgid "users|выход"
+msgstr "ելք"
+
+msgid "users|загрузить фото"
+msgstr "ներբեռնել նկար "
+
+msgid "users|избранные"
+msgstr "նախընտրած "
+
+msgid "users|на сайте с [date]"
+msgstr "Ogut.am-ում է` [date]"
+
+msgid "users|настройки"
+msgstr "կարգավորումներ "
+
+msgid "users|объявления"
+msgstr ""
+
+msgid "users|показать контакты"
+msgstr "Հեռախոսահամար"
+
+msgid "users|сообщения"
+msgstr "հաղորդագրություն "
+
+msgid "users|счет"
+msgstr "հաշիվ "
+
+msgid "view|ICQ"
+msgstr ""
+
+msgid "view|Skype"
+msgstr ""
+
+msgid "view|[date], [user], номер: [id], просмотры: [views]"
+msgstr ""
+
+msgid "view|[date], номер: [id], просмотры: [views]"
+msgstr ""
+
+msgid "view|[views_today] из них сегодня"
+msgstr ""
+
+msgid "view|[views_total] объявления"
+msgstr ""
+
+msgid "view|Адрес"
+msgstr "Հասցե "
+
+msgid "view|Активировать"
+msgstr "Ակտիվացնել "
+
+msgid "view|Все объявления автора"
+msgstr "Օգտատիրոջ բոլոր հայտարարությունները "
+
+msgid "view|Все объявления магазина"
+msgstr "Խանութի բոլոր հայտարարությունները "
+
+msgid "view|Всего"
+msgstr "Ընդհամենը "
+
+msgid "view|Данное объявление находится на модерации"
+msgstr "Տվյալ հայտարարությունը ստուգման փուլում է"
+
+msgid "view|Добавлено: [date], номер: [id]"
+msgstr "Ավելացված է: [date], համար: [id]"
+
+msgid "view|Другие похожие объявления"
+msgstr "Այլ նման հայտարարություններ "
+
+msgid "view|Закрыть"
+msgstr ""
+
+msgid "view|Изменить информацию"
+msgstr "Փոփոխել ինֆորմացիան "
+
+msgid "view|Количество просмотров"
+msgstr "Դիտումների ընդհանուր քանակը"
+
+msgid "view|Контакты"
+msgstr "Կոնտակտներ "
+
+msgid "view|Назад в Мои объявления"
+msgstr ""
+
+msgid "view|Написать автору"
+msgstr "Գրել հեղինակին "
+
+msgid "view|Написать сообщение"
+msgstr "Գրել հաղորդագրություն "
+
+msgid "view|Объявление было удалено либо заблокировано модератором"
+msgstr "Հայտարարությունը ջնջվել է կամ արգելափակվել է մոդերատորների կողմից "
+
+msgid "view|Объявление еще неактивировано пользователем"
+msgstr "Հայտարարությունը դեռ ակտիվացրած չէ օգտատիրոջ կողմից "
+
+msgid "view|Объявление заблокировано"
+msgstr "Հայտարարությունը արգելափակված չէ"
+
+msgid "view|Поделиться с другом"
+msgstr ""
+
+msgid "view|Пожаловаться"
+msgstr "Բողոքել "
+
+msgid "view|Показать"
+msgstr ""
+
+msgid "view|Показать контакты"
+msgstr ""
+
+msgid "view|Показать на карте"
+msgstr "Ցույց տալ քարտեզի վրա"
+
+msgid "view|Понедельник,Вторник,Среда,Четверг,Пятница,Суббота,Воскресенье"
+msgstr "Երկուշաբթի,Երեքշաբթի,Չորեքշաբթի,Հինգշաբթի,Ուրբաթ,Շաբաթ,Կիրակի"
+
+msgid "view|После проверки оно будет вновь опубликовано"
+msgstr "Ստուգելուց հետո այն կրկին կհրապարակվի"
+
+msgid "view|После проверки оно будет опубликовано"
+msgstr "Ստուգելուց հետո այն կհրապարակվի"
+
+msgid "view|Посмотреть статистику"
+msgstr ""
+
+msgid "view|Причина блокировки:<br />[reason]"
+msgstr "Արգելափակման պատճառը:<br />[reason]"
+
+msgid "view|Продвинуть объявление"
+msgstr "Բարձրացնել հայտարարույան դիրքը"
+
+msgid "view|Продвиньте объявление"
+msgstr ""
+
+msgid "view|Просмотр объявления"
+msgstr "Դիտումների ընդհանուր քանակը"
+
+msgid "view|Просмотров всего"
+msgstr "Ընդհանուր դիտումները "
+
+msgid "view|Просмотров сегодня"
+msgstr "Այսօրվա դիտումները "
+
+msgid "view|Просмотры контактов"
+msgstr "Կոնտակտների դիտում"
+
+msgid "view|Просмотры объявления"
+msgstr "Հայտարարության դիտումները"
+
+msgid "view|Распечатать"
+msgstr "Տպել"
+
+msgid "view|Рекламировать"
+msgstr "Գովազդել"
+
+msgid "view|Свяжитесь с автором объявления"
+msgstr "Կապվեք հայտարարության հեղինակի հետ"
+
+msgid "view|Следующее объявление"
+msgstr ""
+
+msgid "view|Снять с публикации"
+msgstr "Հեռացնել հայտարարությունը"
+
+msgid "view|Сообщение слишком короткое"
+msgstr "Հաղոդագրությունը չափազանց կարճ է"
+
+msgid "view|Сообщение;Сообщения;Сообщений"
+msgstr ""
+
+msgid "view|Статистика просмотров объявления за месяц"
+msgstr "Հայտարարության դիտումների ստատիստիկան ամսվա ընթացքում"
+
+msgid "view|Тел"
+msgstr "Հեռ"
+
+msgid "view|Тел."
+msgstr "Հեռ․"
+
+msgid "view|Удалить"
+msgstr "Ջնջել"
+
+msgid "view|Хотите, чтобы ваше <br /> объявление <br /> увидело больше людей?"
+msgstr "Ցանկանու՞մ եք, որ ձեր <br /> հայտարարությունը <br /> ավեի շատ դիտվի"
+
+msgid "view|изображение"
+msgstr "նկար"
+
+msgid "view|метро [station]"
+msgstr ""
+
+msgid "view|на сайте с [date]"
+msgstr ""
+
+msgid "view|показать контакты"
+msgstr "Հեռախոսահամար"
+
+msgid "view|показать на карте"
+msgstr "ցույց տալ քարտեզի վրա"
+
+msgid "view|просмотр;просмотра;просмотров"
+msgstr ""
+
+msgid "view|район [district]"
+msgstr "վարչական շրջան [district]"
+
+msgid "view|частное лицо"
+msgstr "անհատ"
+
+msgid "view|янв,фев,мар,апр,май,июн,июл,авг,сен,окт,ноя,дек"
+msgstr ""
+
+msgid "Введите результат с картинки"
+msgstr ""
+
+msgid "Вчера"
+msgstr "Երեկ"
+
+msgid "Выбрать файл, до 10мб"
+msgstr "Ընտրեք ֆայլը, մինչև 10mb"
+
+msgid "Главная"
+msgstr "Գլխավոր "
+
+msgid "Заполните все отмеченные поля"
+msgstr "Լրացրեք բոլոր նշված դաշտերը"
+
+msgid "Карта сайта"
+msgstr "Կայքի քարտեզ "
+
+msgid "Наверх"
+msgstr "Վերև"
+
+msgid "Отмена"
+msgstr "Չեղարկել"
+
+msgid "Отправить"
+msgstr "Ուղարկել"
+
+msgid "Ошибка"
+msgstr "Սխալ"
+
+msgid "Перейти на страницу"
+msgstr ""
+
+msgid "Повторите попытку через несколько секунд"
+msgstr "Փորձեք մի քանի րոպեից "
+
+msgid "Подождите..."
+msgstr "Սպասեք․․․ "
+
+msgid "Предыдущая"
+msgstr "Նախորդը "
+
+msgid "При заполнении формы возникли следующие ошибки:"
+msgstr "Տվյալները լրացնելու ընթացքում առաջացել են հետևյալ սխալները "
+
+msgid "Результат с картинки указан некорректно"
+msgstr ""
+
+msgid "Сайт временно отключен"
+msgstr "Առք և վաճառք օգուտով"
+
+msgid "Сегодня"
+msgstr "Այսօր"
+
+msgid "Следующая"
+msgstr "Հաջորդը"
+
+msgid "Сообщение было успешно отправлено"
+msgstr "Հաղորդագրությունը ուղարկված է"
+
+msgid "Файл"
+msgstr "Ֆայլ"
+
+msgid "Язык:"
+msgstr "Լեզու:"
+
+msgid "вчера"
+msgstr "երեկ"
+
+msgid "день;дня;дней"
+msgstr "օր "
+
+msgid "знак;знака;знаков"
+msgstr "նիշ"
+
+msgid "об-е;об-я;об-й"
+msgstr ""
+
+msgid "объявление;объявления;объявлений"
+msgstr "հայտարարություն "
+
+msgid "отмена"
+msgstr "չեզարկել"
+
+msgid "сегодня"
+msgstr "այսօր"
+
+msgid "Երևան"
+msgstr ""
+

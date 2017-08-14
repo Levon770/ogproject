@@ -1,0 +1,6 @@
+Host: https://ogut.am
+Sitemap: https://ogut.am/files/sitemap.xml
+
+User-agent: *
+Disallow: /cabinet/
+Disallow: /ru/

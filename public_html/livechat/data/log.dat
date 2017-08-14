@@ -1,0 +1,82 @@
+Application path: /livechat/php/app.php?install-wizard-2
+2017-08-06 02:02:21 Undefined index: smtp on line 162 in /var/www/ogut/data/www/ogut.am/public_html/livechat/views/admin/install-wizard.html
+Application path: /livechat/php/app.php?install-wizard-2
+2017-08-06 02:06:20 [error] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Stack trace:
+/var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Database.php:45 (Logger:error())
+/var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Database.php:63 (Database:connect())
+/var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Database.php:25 (Database:reconnect())
+/var/www/ogut/data/www/ogut.am/public_html/livechat/php/lib/Service.php:17 (Database:onRegister())
+/var/www/ogut/data/www/ogut.am/public_html/livechat/php/lib/ServiceContainer.php:47 (Service:setServiceContainer())
+/var/www/ogut/data/www/ogut.am/public_html/livechat/php/lib/Controller.php:33 (ServiceContainer:get())
+/var/www/ogut/data/www/ogut.am/public_html/livechat/php/controller/InstallController.php:74 (Controller:get())
+/var/www/ogut/data/www/ogut.am/public_html/livechat/php/app/Application.php:155 (InstallController:wizard2Action())
+/var/www/ogut/data/www/ogut.am/public_html/livechat/php/app/Application.php:79 (Application:runAction())
+/var/www/ogut/data/www/ogut.am/public_html/livechat/php/app.php:26 (Application:run())
+
+Application path: /livechat/php/app.php?install-wizard-2
+2017-08-06 02:06:20 Undefined index: smtp on line 78 in /var/www/ogut/data/www/ogut.am/public_html/livechat/views/admin/install-wizard-2.html
+2017-08-06 02:06:20 Undefined index: smtp on line 151 in /var/www/ogut/data/www/ogut.am/public_html/livechat/views/admin/install-wizard-2.html
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:30:56 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:31:01 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:31:06 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:31:11 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:31:16 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:31:21 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:31:26 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:31:31 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:31:36 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:31:41 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:31:46 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:31:51 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:31:56 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:32:01 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:32:06 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:32:11 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:32:16 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:32:21 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:32:26 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:32:31 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:32:36 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:32:41 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:32:46 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:32:51 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:32:56 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:33:01 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:33:06 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-get-typing-status
+2017-08-06 02:33:11 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+Application path: /livechat/php/app.php?operator-update-typing-status
+2017-08-06 02:33:11 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+2017-08-06 02:33:11 parse_ini_file(/var/www/ogut/data/www/ogut.am/public_html/livechat/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+2017-08-06 02:33:11 array_merge(): Argument #1 is not an array on line 102 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+2017-08-06 02:33:11 array_keys() expects parameter 1 to be array, boolean given on line 104 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+2017-08-06 02:33:11 Invalid argument supplied for foreach() on line 104 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
+2017-08-06 02:33:11 Invalid argument supplied for foreach() on line 79 in /var/www/ogut/data/www/ogut.am/public_html/livechat/php/service/Memory.php
