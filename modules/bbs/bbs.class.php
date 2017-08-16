@@ -1210,6 +1210,7 @@ class BBS extends BBSBase
                 $v['url_small'] = $oImages->getURL($v, BBSItemImages::szSmall);
                 $v['url_view'] = $oImages->getURL($v, BBSItemImages::szView);
                 $v['url_zoom'] = $oImages->getURL($v, BBSItemImages::szZoom);
+                $v['url_scf'] = $oImages->getURL($v, BBSItemImages::szSocialFinal);
             }
             unset($v);
         } else {
@@ -1306,7 +1307,7 @@ class BBS extends BBSBase
         );
         $seoSocialImages = array();
         foreach ($aData['images'] as &$v) {
-            $seoSocialImages[] = $v['url_view'];
+            array_push($seoSocialImages, $v['url_view'],$v['url_scf']);
         }
         unset($v);
         $this->seo()->setSocialMetaOG($aData['share_title'], $aData['share_description'], $seoSocialImages, $aData['link'], $aData['share_sitename']);
@@ -1547,6 +1548,12 @@ class BBS extends BBSBase
                     # перемещаем из tmp-директории в постоянную
                     $oImages->saveTmp('images');
                 }
+                $fImages = $this->input->post('images', TYPE_ARRAY_STR);
+
+                $list = $oImages->getImagesList($fImages);
+                foreach($list as $item){
+                    $oImages->GeneratePrice($item['file'], $item['final_file'], $aData['price'], $aData['price_curr']);
+                }
 
                 # требуется активация:
                 if ($bNeedActivation) {
@@ -1735,7 +1742,12 @@ class BBS extends BBSBase
                         $this->moderationCounterUpdate();
                     }
                 }
+                $fImages = $this->input->post('images', TYPE_ARRAY_STR);
 
+                $list = $oImages->getImagesList($fImages);
+                foreach($list as $item){
+                    $oImages->GeneratePrice($item['file'], $item['final_file'], $aData['price'], $aData['price_curr']);
+                }
                 # URL страницы "успешно"
                 $aResponse['successPage'] = static::url('item.edit', array(
                         'id'      => $nItemID,
@@ -2345,6 +2357,12 @@ class BBS extends BBSBase
                         $aResponse['i'] = $oImages->getURL($result, BBSItemImages::szSmall, $aResponse['tmp']);
                         unset($aResponse['dir'], $aResponse['srv']);
                     }
+
+                    $file= $oImages->getFileFullPathname($result, BBSItemImages::szSocial, $aResponse['tmp']);
+                    $final_file= $oImages->getFileFullPathname($result, BBSItemImages::szSocialFinal, $aResponse['tmp']);
+
+                    $oImages->GenerateLayer($file, $final_file);
+                    $oImages->GenerateLayer($file, $file);
                 } while (false);
 
                 $aResponse['errors'] = $this->errors->get();

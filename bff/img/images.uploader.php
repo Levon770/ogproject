@@ -145,7 +145,7 @@ class CImagesUploader extends Component
         }
 
         $A0c027a94ce506 = $this->save(array( "ext" => $A0c027a94ce508, "tmpfile" => $a2682a1f06, "width" => $A0c027a94ce509[0], "height" => $A0c027a94ce509[1] ), $c92c0babdc764d8);
-        if( !false ) 
+        if( !false )
         {
             return $A0c027a94ce506;
         }
@@ -165,7 +165,7 @@ class CImagesUploader extends Component
         }
         $A0c027a94ce514 = getimagesize($A0c027a94ce513);
         $A0c027a94ce512 = $this->save(array( "ext" => $A0c027a94ce511, "tmpfile" => $A0c027a94ce513, "width" => $A0c027a94ce514[0], "height" => $A0c027a94ce514[1] ));
-        if( !false ) 
+        if( !false )
         {
             $this->deleteTmpUploadedFile($A0c027a94ce513);
             return $A0c027a94ce512;
@@ -308,12 +308,12 @@ class CImagesUploader extends Component
 
     protected function save($g58d155f6746e, $a84c3f024 = false)
     {
-        if( empty($g58d155f6746e) || empty($g58d155f6746e["tmpfile"]) ) 
+        if( empty($g58d155f6746e) || empty($g58d155f6746e["tmpfile"]) )
         {
             return false;
         }
 
-        if( !$this->checkDimensions($g58d155f6746e["width"], $g58d155f6746e["height"]) ) 
+        if( !$this->checkDimensions($g58d155f6746e["width"], $g58d155f6746e["height"]) )
         {
             return false;
         }
@@ -693,6 +693,11 @@ class CImagesUploader extends Component
         return ($e47a1c76324af ? $this->urlTmp . "0" : $this->url . ($this->folderByID ? (isset($Pd8ed0c["dir"]) ? $Pd8ed0c["dir"] : $this->getDir()) . "/" : "") . $this->recordID) . $g6647365 . $Pd8ed0c["filename"];
     }
 
+    public function getImagePath($Pd8ed0c, $g6647365, $e47a1c76324af = false)
+    {
+        return ($e47a1c76324af ? $this->pathTmp . "0" : $this->path . ($this->folderByID ? (isset($Pd8ed0c["dir"]) ? $Pd8ed0c["dir"] : $this->getDir()) . DS : "") . $this->recordID) . $g6647365 . $Pd8ed0c["filename"];
+    }
+
     public function setURL($x62d364462c790, $af7a32555eaca28c406)
     {
         $this->url = $x62d364462c790;
@@ -797,6 +802,116 @@ class CImagesUploader extends Component
     public function setMaxSize($Qd88bd01c4)
     {
         $this->maxSize = $Qd88bd01c4;
+    }
+
+    public function getFileFullPathname($Pd8ed0c, $g6647365, $e47a1c76324af = false)
+    {
+        return ($e47a1c76324af ? $this->pathTmp . "0" : $this->path . ($this->folderByID ? (isset($Pd8ed0c["dir"]) ? $Pd8ed0c["dir"] : $this->getDir()) .  DS: "") . $this->recordID) . $g6647365 . $Pd8ed0c["filename"];
+    }
+
+
+    /*********************************************
+     * LEVON - ADDING LAYER WITH PRICE
+     * @param $file1
+     * @param $destination
+     * @param null $price
+     * @return bool
+     */
+     public function GenerateLayer($file1,  $destination, $price = null){
+         $layer = $this->path.'frame.png';
+
+         if(!file_exists($file1) || !file_exists($layer) ){ var_dump("chka");}
+
+         $src = imagecreatefromjpeg($file1);
+         $src_size = $this->imageSize($src);
+
+         $overlay_1 = imagecreatefrompng($layer);
+         $overlay = $this->resize($overlay_1, $src_size['w'], $src_size['h']);
+
+         $overlay_size = $this->imageSize($overlay);
+
+         $dst_x = 0;
+         $dst_y = $src_size['h']- $overlay_size['h'];
+
+         $final = $this->imagecopymerge_alpha($src, $overlay , $dst_x, $dst_y, 0, 0,$overlay_size['w'],$overlay_size['h'], 100);
+         return imagepng($final, $destination);
+     }
+
+     public function GeneratePrice($file1, $file2, $price='1500', $currency){
+
+         if(!file_exists($file1) || !file_exists($file2) ){ var_dump("chka");}else{var_dump("FILER@ KAN");}
+         $final = $this->addPrice($file1, $price, $currency);
+         return imagepng($final, $file2);
+    }
+
+
+    protected function imageSize($file){
+        return array('w'=>imagesx($file), 'h'=>imagesy($file));
+    }
+
+
+    protected function imagecopymerge_alpha($src, $overlay, $src_x, $src_y, $overlay_x, $overlay_y, $overlay_w, $overlay_h, $pct){
+        // creating a cut resource
+        $cut = imagecreatetruecolor( $overlay_w, $overlay_h);
+        // copying relevant section from background to the cut resource
+        imagecopy($cut, $src, 0, 0, $src_x, $src_y, $overlay_w, $overlay_h);
+        // copying relevant section from watermark to the cut resource
+        imagecopy($cut, $overlay, 0, 0, $src_x, $src_x, $overlay_w, $overlay_h);
+        // insert cut resource to destination image
+        imagecopymerge($src, $cut,$src_x, $src_y, 0, 0,  $overlay_w, $overlay_h, $pct);
+        return $src;
+    }
+
+
+    protected function resize($file, $w,$h) {
+        $width = $w;
+        $height = imagesy($file) * $width / imagesx($file);
+        $new_image = imagecreatetruecolor($width, $height);
+        imagealphablending($new_image, false);
+        imagesavealpha($new_image,true);
+        $transparent = imagecolorallocatealpha($new_image, 255, 255, 255, 127);
+        imagecopyresampled($new_image, $file, 0, 0, 0, 0, $width, $height, imagesx($file), imagesy($file));
+
+        return $new_image;
+    }
+
+
+
+    protected function addPrice($file, $price, $curr){
+        $numberArea_x = 35;
+        $numberArea_y = 194;
+        $numbers = (string) $price;
+
+        $src = imagecreatefrompng($file);
+
+        for($i=0; $i<strlen($numbers); $i++){
+
+            $file2 =  $this->path.'numbers'. DS . $numbers[$i].'.png';
+            if(!file_exists($file2) ){ var_dump("nkari file@ chka");}else{var_dump("nkari file@ KA");}
+            $overlay = imagecreatefrompng($file2);
+            $overlay_size = $this->imageSize($overlay);
+
+            $cut = imagecreatetruecolor( $overlay_size['w'], $overlay_size['h']);
+            // copying relevant section from background to the cut resource
+            imagecopy($cut, $src, 0, 0, $numberArea_x + ($i*$overlay_size['w']), $numberArea_y, $overlay_size['w'], $overlay_size['h']);
+            // copying relevant section from watermark to the cut resource
+            imagecopy($cut, $overlay, 0, 0, 0, 0, $overlay_size['w'], $overlay_size['h']);
+            // insert cut resource to destination image
+            imagecopymerge($src, $cut, $numberArea_x + ($i*$overlay_size['w']), $numberArea_y, 0, 0,  $overlay_size['w'], $overlay_size['h'], 100);
+        }
+
+        $file3 =  $this->path.'numbers'. DS . 'sign'.(string)$curr.'.png';
+        $overlay2= imagecreatefrompng($file3);
+        $overlay_size2 = $this->imageSize($overlay2);
+
+        $cut2 = imagecreatetruecolor( $overlay_size2['w'], $overlay_size2['h']);
+        imagecopy($cut2, $src, 0, 0, $numberArea_x + (strlen($numbers)*$overlay_size2['w']), $numberArea_y, $overlay_size2['w'], $overlay_size2['h']);
+        // copying relevant section from watermark to the cut resource
+        imagecopy($cut2, $overlay2, 0, 0, 0, 0, $overlay_size2['w'], $overlay_size2['h']);
+        // insert cut resource to destination image
+        imagecopymerge($src, $cut2, $numberArea_x + (strlen($numbers)*$overlay_size2['w']), $numberArea_y, 0, 0,  $overlay_size2['w'], $overlay_size2['h'], 100);
+
+        return $src;
     }
 
 }

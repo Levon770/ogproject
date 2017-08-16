@@ -10,6 +10,8 @@ class BBSItemImages extends CImagesUploaderTable
     const szView = 'v'; # view - просмотр
     const szZoom = 'z'; # zoom - просмотр zoom
     const szOrginal = 'o'; # original - оригинальное изображение
+    const szSocial = 'sc'; # original - оригинальное изображение
+    const szSocialFinal = 'scf'; # original - оригинальное изображение
 
     protected function initSettings()
     {
@@ -45,6 +47,16 @@ class BBSItemImages extends CImagesUploaderTable
 
         # размеры изображений
         $this->sizes = array(
+            self::szSocial   => array(
+                'width'    => 450,
+                'height'   => 235,
+                'vertical' => array('width' => 450, 'height' => 235)
+            ),
+            self::szSocialFinal   => array(
+                'width'    => 450,
+                'height'   => 235,
+                'vertical' => array('width' => 450, 'height' => 235)
+            ),
             self::szSmall   => array(
                 'width'    => 150,
                 'height'   => 120,
