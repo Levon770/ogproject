@@ -582,7 +582,7 @@ class BBS extends BBSBase
                     $aResponse = array_merge($aResponse, $mResult);
                     $aResponse = array_merge($aResponse, $oImages->getURL($mResult, array(
                                 BBSItemImages::szSmall,
-                                //BBSItemImages::szMedium,
+                                BBSItemImages::szMedium,
                                 BBSItemImages::szView
                             ), empty($nItemID)
                         )

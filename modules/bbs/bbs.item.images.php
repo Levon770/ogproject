@@ -6,7 +6,7 @@ class BBSItemImages extends CImagesUploaderTable
      * Константы размеров
      */
     const szSmall = 's'; # small - форма, список-обычный, список-карта: balloon, просмотр(thumbnails)
-    //const szMedium = 'm'; # medium - список-галерея
+    const szMedium = 'm'; # medium - список-галерея
     const szView = 'v'; # view - просмотр
     const szZoom = 'z'; # zoom - просмотр zoom
    // const szOrginal = 'o'; # original - оригинальное изображение
@@ -62,11 +62,11 @@ class BBSItemImages extends CImagesUploaderTable
                 'height'   => 120,
                 'vertical' => array('width' => 150, 'height' => 120)
             ),
-            /*self::szMedium  => array(
+            self::szMedium  => array(
                 'width'    => 330,
                 'height'   => 180,
                 'vertical' => array('width' => 220, 'height' => false)
-            ),*/
+            ),
             self::szView    => array(
                     'width'    => 670,
                     'height'   => false,
@@ -82,7 +82,7 @@ class BBSItemImages extends CImagesUploaderTable
 
         # размеры изображений, полный URL которых необходимо кешировать
         $this->useFav = true;
-        foreach (array(self::szSmall, self::szView) as $v) {
+        foreach (array(self::szSmall, self::szMedium) as $v) {
             # ключ размера => поле в базе
             $this->sizesFav[$v] = 'img_' . $v;
         }
