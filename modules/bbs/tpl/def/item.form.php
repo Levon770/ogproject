@@ -529,6 +529,8 @@ $lang_image_del = _t('item-form', 'Удалить фото');
             # item
             'itemID' => $id,
             'edit' => $edit,
+            'itemPrice'=>$aData['cat_data']['item']['price'],
+            'itemCurr'=>$aData['cat_data']['item']['price_curr'],
             # category
             'catsRootID' => BBS::CATS_ROOTID,
             'catsMain' => $this->catsList('form', 'init'),

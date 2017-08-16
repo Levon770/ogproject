@@ -881,4 +881,17 @@ abstract class CImagesUploaderTable extends CImagesUploader
         return ($this->limit = $nLimit);
     }
 
+
+    public function getImagesList($img_arr){
+        $arr = array();
+        foreach($img_arr as $item){
+            $arr[] = array(
+                'file'=>$this->getImagePath( array('dir'=>'0', 'filename'=>$item), BBSItemImages::szSocial ),
+                'final_file'=>$this->getImagePath( array('dir'=>'0', 'filename'=>$item), BBSItemImages::szSocialFinal)
+            );
+        }
+
+        return $arr;
+    }
+
 }

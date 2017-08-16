@@ -220,7 +220,7 @@ class SEOModule extends SEOModuleBase
                     $image = $requestScheme . $image;
                 }
                 $image = htmlspecialchars($image, ENT_QUOTES, 'UTF-8');
-                $this->_metaData['og:image'] = '<meta property="og:image" content="' . $image . '" />';
+                $this->_metaData['og:image'] = '<meta property="og:image:url" content="' . $image . '" />';
             } else {
                 if (is_array($image)) {
                     $i = 1;
@@ -230,7 +230,7 @@ class SEOModule extends SEOModuleBase
                                 $v = $requestScheme . $v;
                             }
                             $v = htmlspecialchars($v, ENT_QUOTES, 'UTF-8');
-                            $this->_metaData['og:image' . ($i++)] = '<meta property="og:image" content="' . $v . '" />';
+                            $this->_metaData['og:image' . ($i++)] = '<meta property="og:image:url" content="' . $v . '" />';
                         }
                     }
                     unset($v);

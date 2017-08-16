@@ -1,6 +1,6 @@
 var jForm = (function(){
     var inited = false, edit = false, $form, form,
-        o = {itemID:0,
+        o = {itemID:0, itemPrice:0, itemCurr:null,
              catsRootID:0,catsMain:{},catTypesEx:false,catTypeSeek:0,catEditable:false,
              imgLimit:0,imgMaxSize:0,imgUploaded:0,imgData:{},
              geoCityID:0,
@@ -105,7 +105,7 @@ var jForm = (function(){
         });
 
         // images
-        img.url = bff.ajaxURL('bbs&ev=img&hash='+app.csrf_token+'&item_id='+o.itemID, '');
+        img.url = bff.ajaxURL('bbs&ev=img&hash='+app.csrf_token+'&item_id='+o.itemID+'&item_price='+o.itemPrice+'&curr='+o.itemCurr, '');
         img.$block = $form.find('.j-images');
         img.type = {
             $ajax: img.$block.find('.j-images-type-ajax'),
