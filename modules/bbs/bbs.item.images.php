@@ -50,13 +50,13 @@ class BBSItemImages extends CImagesUploaderTable
             self::szSocial   => array(
                 'width'    => 450,
                 'height'   => 235,
-                'vertical' => array('width' => 450, 'height' => 235)
-            ),
+                'vertical' => array('width' => 450, 'height' => 235)+ $watermarkSettings,
+            ) + $watermarkSettings,
             self::szSocialFinal   => array(
                 'width'    => 450,
                 'height'   => 235,
-                'vertical' => array('width' => 450, 'height' => 235)
-            ),
+                'vertical' => array('width' => 450, 'height' => 235)+ $watermarkSettings
+            )+ $watermarkSettings,
             self::szSmall   => array(
                 'width'    => 150,
                 'height'   => 120,

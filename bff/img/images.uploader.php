@@ -820,28 +820,34 @@ class CImagesUploader extends Component
      public function GenerateLayer($file1,  $destination, $price = null){
          $layer = $this->path.'frame.png';
 
-         if(!file_exists($file1) || !file_exists($layer) ){ var_dump("chka");}
+         if(file_exists($file1) && file_exists($layer) ){
+             $src = imagecreatefromjpeg($file1);
+             $src_size = $this->imageSize($src);
 
-         $src = imagecreatefromjpeg($file1);
-         $src_size = $this->imageSize($src);
+             $overlay_1 = imagecreatefrompng($layer);
+             $overlay = $this->resize($overlay_1, $src_size['w'], $src_size['h']);
 
-         $overlay_1 = imagecreatefrompng($layer);
-         $overlay = $this->resize($overlay_1, $src_size['w'], $src_size['h']);
+             $overlay_size = $this->imageSize($overlay);
 
-         $overlay_size = $this->imageSize($overlay);
+             $dst_x = 0;
+             $dst_y = $src_size['h']- $overlay_size['h'];
 
-         $dst_x = 0;
-         $dst_y = $src_size['h']- $overlay_size['h'];
+             $final = $this->imagecopymerge_alpha($src, $overlay , $dst_x, $dst_y, 0, 0,$overlay_size['w'],$overlay_size['h'], 100);
+             return imagepng($final, $destination);
+         }
 
-         $final = $this->imagecopymerge_alpha($src, $overlay , $dst_x, $dst_y, 0, 0,$overlay_size['w'],$overlay_size['h'], 100);
-         return imagepng($final, $destination);
+         return false;
      }
 
      public function GeneratePrice($file1, $file2, $price='1500', $currency){
 
-         if(!file_exists($file1) || !file_exists($file2) ){ var_dump("chka");}else{var_dump("FILER@ KAN");}
-         $final = $this->addPrice($file1, $price, $currency);
-         return imagepng($final, $file2);
+         if(file_exists($file1) || file_exists($file2) ){
+             $final = $this->addPrice($file1, $price, $currency);
+             return imagepng($final, $file2);
+         }
+
+         return false;
+
     }
 
 
@@ -887,7 +893,7 @@ class CImagesUploader extends Component
         for($i=0; $i<strlen($numbers); $i++){
 
             $file2 =  $this->path.'numbers'. DS . $numbers[$i].'.png';
-            if(!file_exists($file2) ){ var_dump("nkari file@ chka");}else{var_dump("nkari file@ KA");}
+
             $overlay = imagecreatefrompng($file2);
             $overlay_size = $this->imageSize($overlay);
 

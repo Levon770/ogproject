@@ -2363,6 +2363,11 @@ class BBS extends BBSBase
 
                     $oImages->GenerateLayer($file, $final_file);
                     $oImages->GenerateLayer($file, $file);
+
+                    if(($price= $this->input->getpost('item_price')) != null && ($curr =$this->input->getpost('curr')) !=null ){
+                        $oImages->GeneratePrice($file, $final_file, $this->input->getpost('item_price'), $curr);
+                    }
+
                 } while (false);
 
                 $aResponse['errors'] = $this->errors->get();
