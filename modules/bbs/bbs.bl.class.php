@@ -804,7 +804,7 @@ implements IModuleWithSvc
         # формируем URL изображений
         $aImageSize = array(
             self::LIST_TYPE_LIST    => array('sz' => BBSItemImages::szSmall, 'field' => 'img_s'),
-            self::LIST_TYPE_GALLERY => array('sz' => BBSItemImages::szMedium, 'field' => 'img_m'),
+            //self::LIST_TYPE_GALLERY => array('sz' => BBSItemImages::szMedium, 'field' => 'img_m'),
             self::LIST_TYPE_MAP     => array('sz' => BBSItemImages::szSmall, 'field' => 'img_s'),
         );
         if (!isset($aImageSize[$nListType])) {
