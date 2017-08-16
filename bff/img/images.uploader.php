@@ -821,7 +821,14 @@ class CImagesUploader extends Component
          $layer = $this->path.'frame.png';
 
          if(file_exists($file1) && file_exists($layer) ){
-             $src = (exif_imagetype($file1) == 'png')?imagecreatefrompng($file1): $src = imagecreatefromjpeg($file1);
+
+             switch(exif_imagetype($file1)){
+                 case 1: $src = imagecreatefromgif($file1);break;
+                 case 2: $src = imagecreatefromjpeg($file1);break;
+                 case 3: $src = imagecreatefrompng($file1);break;
+                 //case 6: $src = imagecreatefrombmp($file1);break; //php7 only
+                 default: $src = imagecreatefrompng($file1);break;
+             }
 
              $src_size = $this->imageSize($src);
 
@@ -889,7 +896,14 @@ class CImagesUploader extends Component
         $numberArea_y = 194;
         $numbers = (string) $price;
 
-        $src = (exif_imagetype($file) == 'png')?imagecreatefrompng($file): $src = imagecreatefromjpeg($file);
+        switch(exif_imagetype($file)){
+            case 1: $src = imagecreatefromgif($file);break;
+            case 2: $src = imagecreatefromjpeg($file);break;
+            case 3: $src = imagecreatefrompng($file);break;
+            //case 6: $src = imagecreatefrombmp($file);break; //php7 only
+            default: $src = imagecreatefrompng($file);break;
+        }
+
 
         for($i=0; $i<strlen($numbers); $i++){
 
