@@ -1307,7 +1307,7 @@ class BBS extends BBSBase
         );
         $seoSocialImages = array();
         foreach ($aData['images'] as &$v) {
-            array_push($seoSocialImages, $v['url_view'],$v['url_scf']);
+            array_push($seoSocialImages, $v['url_scf'], $v['url_view']);
         }
         unset($v);
         $this->seo()->setSocialMetaOG($aData['share_title'], $aData['share_description'], $seoSocialImages, $aData['link'], $aData['share_sitename']);
