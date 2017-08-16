@@ -821,7 +821,8 @@ class CImagesUploader extends Component
          $layer = $this->path.'frame.png';
 
          if(file_exists($file1) && file_exists($layer) ){
-             $src = imagecreatefromjpeg($file1);
+             $src = (exif_imagetype($file1) == 'png')?imagecreatefrompng($file1): $src = imagecreatefromjpeg($file1);
+
              $src_size = $this->imageSize($src);
 
              $overlay_1 = imagecreatefrompng($layer);
@@ -888,7 +889,7 @@ class CImagesUploader extends Component
         $numberArea_y = 194;
         $numbers = (string) $price;
 
-        $src = imagecreatefrompng($file);
+        $src = (exif_imagetype($file) == 'png')?imagecreatefrompng($file): $src = imagecreatefromjpeg($file);
 
         for($i=0; $i<strlen($numbers); $i++){
 
